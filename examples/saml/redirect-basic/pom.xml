@@ -64,7 +64,7 @@
                     <failOnMissingWebXml>false</failOnMissingWebXml>
 
                     <!-- We need to get the configuration resources for the provided target container. -->
-                    <classifier>${target.container}</classifier>
+                    <!-- <classifier>${target.container}</classifier> -->
 
                     <!-- Instead of duplicating resources for each example application, we just reuse all resources from the
                     base application. -->

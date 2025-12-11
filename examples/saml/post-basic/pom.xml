@@ -63,7 +63,7 @@
                     <failOnMissingWebXml>false</failOnMissingWebXml>
 
                     <!-- We need to get the configuration resources for the provided target container. -->
-                    <classifier>${target.container}</classifier>
+                    <!-- <classifier>${target.container}</classifier> -->
 					<webResources>
 						<resource>
 							<directory>${basedir}/conf/${target.container}</directory>
