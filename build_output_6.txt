@@ -1,0 +1,146 @@
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] PicketLink Quickstart: picketlink-federation-saml-sp-post-basic    [war]
+[INFO] PicketLink Quickstart: picketlink-federation-saml-sp-post-with-signature [war]
+[INFO] PicketLink Quickstart: picketlink-federation-saml-sp-with-encryption [war]
+[INFO] PicketLink Quickstart: picketlink-federation-saml-sp-redirect-basic [war]
+[INFO] PicketLink Quickstart: picketlink-federation-saml-sp-redirect-with-signature [war]
+[INFO] Provider Examples                                                  [pom]
+[INFO] LDAP Demo Application                                              [war]
+[INFO] Keycloak TestSuite                                                 [pom]
+[INFO] Keycloak Integration TestSuite                                     [jar]
+[INFO] Keycloak Security Proxy TestSuite                                  [jar]
+[INFO] Keycloak Tomcat 6 Integration TestSuite                            [jar]
+[INFO] Keycloak Tomcat 7 Integration TestSuite                            [jar]
+[INFO] Keycloak Tomcat 8 Integration TestSuite                            [jar]
+[INFO] Keycloak Jetty 8.1.x Integration TestSuite                         [jar]
+[INFO] Keycloak Jetty 9.2.x Integration TestSuite                         [jar]
+[INFO] Keycloak Jetty 9.1.x Integration TestSuite                         [jar]
+[INFO] Keycloak Performance TestSuite                                     [jar]
+[INFO] Keycloak Util Parent                                               [pom]
+[INFO] 
+[INFO] --< org.picketlink.quickstarts:picketlink-federation-saml-sp-post-basic >--
+[INFO] Building PicketLink Quickstart: picketlink-federation-saml-sp-post-basic 2.7.0.Beta2 [1/18]
+[INFO]   from pom.xml
+[INFO] --------------------------------[ war ]---------------------------------
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ picketlink-federation-saml-sp-post-basic ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory C:\Users\MURALIS\OneDrive - Muralis\Documentos\goodfriend\goodfriend-keycloak\examples\saml\post-basic\src\main\resources
+[INFO] 
+[INFO] --- compiler:3.11.0:compile (default-compile) @ picketlink-federation-saml-sp-post-basic ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ picketlink-federation-saml-sp-post-basic ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory C:\Users\MURALIS\OneDrive - Muralis\Documentos\goodfriend\goodfriend-keycloak\examples\saml\post-basic\src\test\resources
+[INFO] 
+[INFO] --- compiler:3.11.0:testCompile (default-testCompile) @ picketlink-federation-saml-sp-post-basic ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- surefire:3.2.2:test (default-test) @ picketlink-federation-saml-sp-post-basic ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- war:2.1.1:war (default-war) @ picketlink-federation-saml-sp-post-basic ---
+[INFO] Artifact xpp3:xpp3_min:pom:1.1.4c is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [central (https://repo.maven.apache.org/maven2, default, releases), maven-default-http-blocker (http://0.0.0.0/, default, snapshots, blocked)]
+[INFO] Artifact xpp3:xpp3_min:pom:1.1.4c is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [central (https://repo.maven.apache.org/maven2, default, releases), maven-default-http-blocker (http://0.0.0.0/, default, snapshots, blocked)]
+Downloading from central: https://repo.maven.apache.org/maven2/xpp3/xpp3_min/1.1.4c/xpp3_min-1.1.4c.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/xpp3/xpp3_min/1.1.4c/xpp3_min-1.1.4c.pom (0 B at 0 B/s)
+[INFO] Artifact org.apache.maven.shared:maven-filtering:pom:1.0-beta-2 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [central (https://repo.maven.apache.org/maven2, default, releases), maven-default-http-blocker (http://0.0.0.0/, default, snapshots, blocked)]
+[INFO] Artifact org.apache.maven.shared:maven-filtering:pom:1.0-beta-2 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [central (https://repo.maven.apache.org/maven2, default, releases), maven-default-http-blocker (http://0.0.0.0/, default, snapshots, blocked)]
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-filtering/1.0-beta-2/maven-filtering-1.0-beta-2.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-filtering/1.0-beta-2/maven-filtering-1.0-beta-2.pom (0 B at 0 B/s)
+[INFO] Artifact org.codehaus.plexus:plexus-interpolation:pom:1.6 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [central (https://repo.maven.apache.org/maven2, default, releases), maven-default-http-blocker (http://0.0.0.0/, default, snapshots, blocked)]
+[INFO] Artifact org.codehaus.plexus:plexus-interpolation:pom:1.6 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [central (https://repo.maven.apache.org/maven2, default, releases), maven-default-http-blocker (http://0.0.0.0/, default, snapshots, blocked)]
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interpolation/1.6/plexus-interpolation-1.6.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interpolation/1.6/plexus-interpolation-1.6.pom (0 B at 0 B/s)
+[INFO] Packaging webapp
+[INFO] Assembling webapp [picketlink-federation-saml-sp-post-basic] in [C:\Users\MURALIS\OneDrive - Muralis\Documentos\goodfriend\goodfriend-keycloak\examples\saml\post-basic\target\picketlink-federation-saml-sp-post-basic]
+[INFO] Processing war project
+[INFO] Copying webapp webResources [C:\Users\MURALIS\OneDrive - Muralis\Documentos\goodfriend\goodfriend-keycloak\examples\saml\post-basic/conf/jboss-eap] to [C:\Users\MURALIS\OneDrive - Muralis\Documentos\goodfriend\goodfriend-keycloak\examples\saml\post-basic\target\picketlink-federation-saml-sp-post-basic]
+[INFO] Copying webapp resources [C:\Users\MURALIS\OneDrive - Muralis\Documentos\goodfriend\goodfriend-keycloak\examples\saml\post-basic\src\main\webapp]
+[INFO] Webapp assembled in [61 msecs]
+[INFO] Building war: C:\Users\MURALIS\OneDrive - Muralis\Documentos\goodfriend\goodfriend-keycloak\examples\saml\post-basic\target\picketlink-federation-saml-sp-post-basic.war
+[WARNING] Warning: selected war files include a WEB-INF/web.xml which will be ignored 
+(webxml attribute is missing from war task, or ignoreWebxml attribute is specified as 'true')
+[INFO] 
+[INFO] --- install:3.1.1:install (default-install) @ picketlink-federation-saml-sp-post-basic ---
+[INFO] Installing C:\Users\MURALIS\OneDrive - Muralis\Documentos\goodfriend\goodfriend-keycloak\examples\saml\post-basic\pom.xml to C:\Users\MURALIS\.m2\repository\org\picketlink\quickstarts\picketlink-federation-saml-sp-post-basic\2.7.0.Beta2\picketlink-federation-saml-sp-post-basic-2.7.0.Beta2.pom
+[INFO] Installing C:\Users\MURALIS\OneDrive - Muralis\Documentos\goodfriend\goodfriend-keycloak\examples\saml\post-basic\target\picketlink-federation-saml-sp-post-basic.war to C:\Users\MURALIS\.m2\repository\org\picketlink\quickstarts\picketlink-federation-saml-sp-post-basic\2.7.0.Beta2\picketlink-federation-saml-sp-post-basic-2.7.0.Beta2.war
+[INFO] 
+[INFO] --< org.picketlink.quickstarts:picketlink-federation-saml-sp-post-with-signature >--
+[INFO] Building PicketLink Quickstart: picketlink-federation-saml-sp-post-with-signature 2.7.0.Beta2 [2/18]
+[INFO]   from C:\Users\MURALIS\OneDrive - Muralis\Documentos\goodfriend\goodfriend-keycloak\examples\saml\post-with-signature\pom.xml
+[INFO] --------------------------------[ war ]---------------------------------
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ picketlink-federation-saml-sp-post-with-signature ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] skip non existing resourceDirectory C:\Users\MURALIS\OneDrive - Muralis\Documentos\goodfriend\goodfriend-keycloak\examples\saml\post-basic\src\main\resources
+[INFO] 
+[INFO] --- compiler:3.11.0:compile (default-compile) @ picketlink-federation-saml-sp-post-with-signature ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ picketlink-federation-saml-sp-post-with-signature ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory C:\Users\MURALIS\OneDrive - Muralis\Documentos\goodfriend\goodfriend-keycloak\examples\saml\post-with-signature\src\test\resources
+[INFO] 
+[INFO] --- compiler:3.11.0:testCompile (default-testCompile) @ picketlink-federation-saml-sp-post-with-signature ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- surefire:3.2.2:test (default-test) @ picketlink-federation-saml-sp-post-with-signature ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- war:2.1.1:war (default-war) @ picketlink-federation-saml-sp-post-with-signature ---
+[INFO] Packaging webapp
+[INFO] Assembling webapp [picketlink-federation-saml-sp-post-with-signature] in [C:\Users\MURALIS\OneDrive - Muralis\Documentos\goodfriend\goodfriend-keycloak\examples\saml\post-with-signature\target\picketlink-federation-saml-sp-post-with-signature]
+[INFO] Processing war project
+[INFO] Copying webapp webResources [C:\Users\MURALIS\OneDrive - Muralis\Documentos\goodfriend\goodfriend-keycloak\examples\saml\post-with-signature\src/main/webapp] to [C:\Users\MURALIS\OneDrive - Muralis\Documentos\goodfriend\goodfriend-keycloak\examples\saml\post-with-signature\target\picketlink-federation-saml-sp-post-with-signature]
+[INFO] Copying webapp webResources [C:\Users\MURALIS\OneDrive - Muralis\Documentos\goodfriend\goodfriend-keycloak\examples\saml\post-with-signature\../post-basic/src/main/webapp] to [C:\Users\MURALIS\OneDrive - Muralis\Documentos\goodfriend\goodfriend-keycloak\examples\saml\post-with-signature\target\picketlink-federation-saml-sp-post-with-signature]
+[INFO] Copying webapp webResources [C:\Users\MURALIS\OneDrive - Muralis\Documentos\goodfriend\goodfriend-keycloak\examples\saml\post-with-signature/conf/jboss-eap] to [C:\Users\MURALIS\OneDrive - Muralis\Documentos\goodfriend\goodfriend-keycloak\examples\saml\post-with-signature\target\picketlink-federation-saml-sp-post-with-signature]
+[INFO] Copying webapp resources [C:\Users\MURALIS\OneDrive - Muralis\Documentos\goodfriend\goodfriend-keycloak\examples\saml\post-with-signature\src\main\webapp]
+[INFO] Webapp assembled in [65 msecs]
+[INFO] Building war: C:\Users\MURALIS\OneDrive - Muralis\Documentos\goodfriend\goodfriend-keycloak\examples\saml\post-with-signature\target\picketlink-federation-saml-sp-post-with-signature-jboss-eap.war
+[WARNING] Warning: selected war files include a WEB-INF/web.xml which will be ignored 
+(webxml attribute is missing from war task, or ignoreWebxml attribute is specified as 'true')
+[INFO] 
+[INFO] --- install:3.1.1:install (default-install) @ picketlink-federation-saml-sp-post-with-signature ---
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] PicketLink Quickstart: picketlink-federation-saml-sp-post-basic 2.7.0.Beta2 SUCCESS [  2.198 s]
+[INFO] PicketLink Quickstart: picketlink-federation-saml-sp-post-with-signature 2.7.0.Beta2 FAILURE [  0.148 s]
+[INFO] PicketLink Quickstart: picketlink-federation-saml-sp-with-encryption 2.7.0.Beta2 SKIPPED
+[INFO] PicketLink Quickstart: picketlink-federation-saml-sp-redirect-basic 2.7.0.Beta2 SKIPPED
+[INFO] PicketLink Quickstart: picketlink-federation-saml-sp-redirect-with-signature 2.7.0.Beta2 SKIPPED
+[INFO] Provider Examples 1.5.0.Final ...................... SKIPPED
+[INFO] LDAP Demo Application 1.5.0.Final .................. SKIPPED
+[INFO] Keycloak TestSuite 1.5.0.Final ..................... SKIPPED
+[INFO] Keycloak Integration TestSuite 1.5.0.Final ......... SKIPPED
+[INFO] Keycloak Security Proxy TestSuite 1.5.0.Final ...... SKIPPED
+[INFO] Keycloak Tomcat 6 Integration TestSuite 1.5.0.Final  SKIPPED
+[INFO] Keycloak Tomcat 7 Integration TestSuite 1.5.0.Final  SKIPPED
+[INFO] Keycloak Tomcat 8 Integration TestSuite 1.5.0.Final  SKIPPED
+[INFO] Keycloak Jetty 8.1.x Integration TestSuite 1.5.0.Final SKIPPED
+[INFO] Keycloak Jetty 9.2.x Integration TestSuite 1.5.0.Final SKIPPED
+[INFO] Keycloak Jetty 9.1.x Integration TestSuite 1.5.0.Final SKIPPED
+[INFO] Keycloak Performance TestSuite 1.5.0.Final ......... SKIPPED
+[INFO] Keycloak Util Parent 1.5.0.Final ................... SKIPPED
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  3.706 s
+[INFO] Finished at: 2025-12-11T13:50:30-03:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-install-plugin:3.1.1:install (default-install) on project picketlink-federation-saml-sp-post-with-signature: The packaging plugin for this project did not assign a main file to the project but it has attachments. Change packaging to 'pom'. -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <args> -rf :picketlink-federation-saml-sp-post-with-signature

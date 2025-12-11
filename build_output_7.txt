@@ -1,0 +1,917 @@
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] PicketLink Quickstart: picketlink-federation-saml-sp-post-with-signature [war]
+[INFO] PicketLink Quickstart: picketlink-federation-saml-sp-with-encryption [war]
+[INFO] PicketLink Quickstart: picketlink-federation-saml-sp-redirect-basic [war]
+[INFO] PicketLink Quickstart: picketlink-federation-saml-sp-redirect-with-signature [war]
+[INFO] Provider Examples                                                  [pom]
+[INFO] LDAP Demo Application                                              [war]
+[INFO] Keycloak TestSuite                                                 [pom]
+[INFO] Keycloak Integration TestSuite                                     [jar]
+[INFO] Keycloak Security Proxy TestSuite                                  [jar]
+[INFO] Keycloak Tomcat 6 Integration TestSuite                            [jar]
+[INFO] Keycloak Tomcat 7 Integration TestSuite                            [jar]
+[INFO] Keycloak Tomcat 8 Integration TestSuite                            [jar]
+[INFO] Keycloak Jetty 8.1.x Integration TestSuite                         [jar]
+[INFO] Keycloak Jetty 9.2.x Integration TestSuite                         [jar]
+[INFO] Keycloak Jetty 9.1.x Integration TestSuite                         [jar]
+[INFO] Keycloak Performance TestSuite                                     [jar]
+[INFO] Keycloak Util Parent                                               [pom]
+[INFO] 
+[INFO] --< org.picketlink.quickstarts:picketlink-federation-saml-sp-post-with-signature >--
+[INFO] Building PicketLink Quickstart: picketlink-federation-saml-sp-post-with-signature 2.7.0.Beta2 [1/17]
+[INFO]   from pom.xml
+[INFO] --------------------------------[ war ]---------------------------------
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ picketlink-federation-saml-sp-post-with-signature ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] skip non existing resourceDirectory C:\Users\MURALIS\OneDrive - Muralis\Documentos\goodfriend\goodfriend-keycloak\examples\saml\post-basic\src\main\resources
+[INFO] 
+[INFO] --- compiler:3.11.0:compile (default-compile) @ picketlink-federation-saml-sp-post-with-signature ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ picketlink-federation-saml-sp-post-with-signature ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory C:\Users\MURALIS\OneDrive - Muralis\Documentos\goodfriend\goodfriend-keycloak\examples\saml\post-with-signature\src\test\resources
+[INFO] 
+[INFO] --- compiler:3.11.0:testCompile (default-testCompile) @ picketlink-federation-saml-sp-post-with-signature ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- surefire:3.2.2:test (default-test) @ picketlink-federation-saml-sp-post-with-signature ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- war:2.1.1:war (default-war) @ picketlink-federation-saml-sp-post-with-signature ---
+[INFO] Packaging webapp
+[INFO] Assembling webapp [picketlink-federation-saml-sp-post-with-signature] in [C:\Users\MURALIS\OneDrive - Muralis\Documentos\goodfriend\goodfriend-keycloak\examples\saml\post-with-signature\target\picketlink-federation-saml-sp-post-with-signature]
+[INFO] Processing war project
+[INFO] Copying webapp webResources [C:\Users\MURALIS\OneDrive - Muralis\Documentos\goodfriend\goodfriend-keycloak\examples\saml\post-with-signature\src/main/webapp] to [C:\Users\MURALIS\OneDrive - Muralis\Documentos\goodfriend\goodfriend-keycloak\examples\saml\post-with-signature\target\picketlink-federation-saml-sp-post-with-signature]
+[INFO] Copying webapp webResources [C:\Users\MURALIS\OneDrive - Muralis\Documentos\goodfriend\goodfriend-keycloak\examples\saml\post-with-signature\../post-basic/src/main/webapp] to [C:\Users\MURALIS\OneDrive - Muralis\Documentos\goodfriend\goodfriend-keycloak\examples\saml\post-with-signature\target\picketlink-federation-saml-sp-post-with-signature]
+[INFO] Copying webapp webResources [C:\Users\MURALIS\OneDrive - Muralis\Documentos\goodfriend\goodfriend-keycloak\examples\saml\post-with-signature/conf/jboss-eap] to [C:\Users\MURALIS\OneDrive - Muralis\Documentos\goodfriend\goodfriend-keycloak\examples\saml\post-with-signature\target\picketlink-federation-saml-sp-post-with-signature]
+[INFO] Copying webapp resources [C:\Users\MURALIS\OneDrive - Muralis\Documentos\goodfriend\goodfriend-keycloak\examples\saml\post-with-signature\src\main\webapp]
+[INFO] Webapp assembled in [43 msecs]
+[INFO] Building war: C:\Users\MURALIS\OneDrive - Muralis\Documentos\goodfriend\goodfriend-keycloak\examples\saml\post-with-signature\target\picketlink-federation-saml-sp-post-with-signature.war
+[WARNING] Warning: selected war files include a WEB-INF/web.xml which will be ignored 
+(webxml attribute is missing from war task, or ignoreWebxml attribute is specified as 'true')
+[INFO] 
+[INFO] --- install:3.1.1:install (default-install) @ picketlink-federation-saml-sp-post-with-signature ---
+[INFO] Installing C:\Users\MURALIS\OneDrive - Muralis\Documentos\goodfriend\goodfriend-keycloak\examples\saml\post-with-signature\pom.xml to C:\Users\MURALIS\.m2\repository\org\picketlink\quickstarts\picketlink-federation-saml-sp-post-with-signature\2.7.0.Beta2\picketlink-federation-saml-sp-post-with-signature-2.7.0.Beta2.pom
+[INFO] Installing C:\Users\MURALIS\OneDrive - Muralis\Documentos\goodfriend\goodfriend-keycloak\examples\saml\post-with-signature\target\picketlink-federation-saml-sp-post-with-signature.war to C:\Users\MURALIS\.m2\repository\org\picketlink\quickstarts\picketlink-federation-saml-sp-post-with-signature\2.7.0.Beta2\picketlink-federation-saml-sp-post-with-signature-2.7.0.Beta2.war
+[INFO] 
+[INFO] --< org.picketlink.quickstarts:picketlink-federation-saml-sp-with-encryption >--
+[INFO] Building PicketLink Quickstart: picketlink-federation-saml-sp-with-encryption 2.7.0.Beta2 [2/17]
+[INFO]   from C:\Users\MURALIS\OneDrive - Muralis\Documentos\goodfriend\goodfriend-keycloak\examples\saml\post-with-encryption\pom.xml
+[INFO] --------------------------------[ war ]---------------------------------
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ picketlink-federation-saml-sp-with-encryption ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] skip non existing resourceDirectory C:\Users\MURALIS\OneDrive - Muralis\Documentos\goodfriend\goodfriend-keycloak\examples\saml\post-basic\src\main\resources
+[INFO] 
+[INFO] --- compiler:3.11.0:compile (default-compile) @ picketlink-federation-saml-sp-with-encryption ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ picketlink-federation-saml-sp-with-encryption ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory C:\Users\MURALIS\OneDrive - Muralis\Documentos\goodfriend\goodfriend-keycloak\examples\saml\post-with-encryption\src\test\resources
+[INFO] 
+[INFO] --- compiler:3.11.0:testCompile (default-testCompile) @ picketlink-federation-saml-sp-with-encryption ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- surefire:3.2.2:test (default-test) @ picketlink-federation-saml-sp-with-encryption ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- war:2.1.1:war (default-war) @ picketlink-federation-saml-sp-with-encryption ---
+[INFO] Packaging webapp
+[INFO] Assembling webapp [picketlink-federation-saml-sp-with-encryption] in [C:\Users\MURALIS\OneDrive - Muralis\Documentos\goodfriend\goodfriend-keycloak\examples\saml\post-with-encryption\target\picketlink-federation-saml-sp-with-encryption]
+[INFO] Processing war project
+[INFO] Copying webapp webResources [C:\Users\MURALIS\OneDrive - Muralis\Documentos\goodfriend\goodfriend-keycloak\examples\saml\post-with-encryption\src/main/webapp] to [C:\Users\MURALIS\OneDrive - Muralis\Documentos\goodfriend\goodfriend-keycloak\examples\saml\post-with-encryption\target\picketlink-federation-saml-sp-with-encryption]
+[INFO] Copying webapp webResources [C:\Users\MURALIS\OneDrive - Muralis\Documentos\goodfriend\goodfriend-keycloak\examples\saml\post-with-encryption\../post-basic/src/main/webapp] to [C:\Users\MURALIS\OneDrive - Muralis\Documentos\goodfriend\goodfriend-keycloak\examples\saml\post-with-encryption\target\picketlink-federation-saml-sp-with-encryption]
+[INFO] Copying webapp webResources [C:\Users\MURALIS\OneDrive - Muralis\Documentos\goodfriend\goodfriend-keycloak\examples\saml\post-with-encryption/conf/jboss-eap] to [C:\Users\MURALIS\OneDrive - Muralis\Documentos\goodfriend\goodfriend-keycloak\examples\saml\post-with-encryption\target\picketlink-federation-saml-sp-with-encryption]
+[INFO] Copying webapp resources [C:\Users\MURALIS\OneDrive - Muralis\Documentos\goodfriend\goodfriend-keycloak\examples\saml\post-with-encryption\src\main\webapp]
+[INFO] Webapp assembled in [33 msecs]
+[INFO] Building war: C:\Users\MURALIS\OneDrive - Muralis\Documentos\goodfriend\goodfriend-keycloak\examples\saml\post-with-encryption\target\picketlink-federation-saml-sp-with-encryption.war
+[WARNING] Warning: selected war files include a WEB-INF/web.xml which will be ignored 
+(webxml attribute is missing from war task, or ignoreWebxml attribute is specified as 'true')
+[INFO] 
+[INFO] --- install:3.1.1:install (default-install) @ picketlink-federation-saml-sp-with-encryption ---
+[INFO] Installing C:\Users\MURALIS\OneDrive - Muralis\Documentos\goodfriend\goodfriend-keycloak\examples\saml\post-with-encryption\pom.xml to C:\Users\MURALIS\.m2\repository\org\picketlink\quickstarts\picketlink-federation-saml-sp-with-encryption\2.7.0.Beta2\picketlink-federation-saml-sp-with-encryption-2.7.0.Beta2.pom
+[INFO] Installing C:\Users\MURALIS\OneDrive - Muralis\Documentos\goodfriend\goodfriend-keycloak\examples\saml\post-with-encryption\target\picketlink-federation-saml-sp-with-encryption.war to C:\Users\MURALIS\.m2\repository\org\picketlink\quickstarts\picketlink-federation-saml-sp-with-encryption\2.7.0.Beta2\picketlink-federation-saml-sp-with-encryption-2.7.0.Beta2.war
+[INFO] 
+[INFO] --< org.picketlink.quickstarts:picketlink-federation-saml-sp-redirect-basic >--
+[INFO] Building PicketLink Quickstart: picketlink-federation-saml-sp-redirect-basic 2.7.0.Beta2 [3/17]
+[INFO]   from C:\Users\MURALIS\OneDrive - Muralis\Documentos\goodfriend\goodfriend-keycloak\examples\saml\redirect-basic\pom.xml
+[INFO] --------------------------------[ war ]---------------------------------
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ picketlink-federation-saml-sp-redirect-basic ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory C:\Users\MURALIS\OneDrive - Muralis\Documentos\goodfriend\goodfriend-keycloak\examples\saml\redirect-basic\src\main\resources
+[INFO] 
+[INFO] --- compiler:3.11.0:compile (default-compile) @ picketlink-federation-saml-sp-redirect-basic ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ picketlink-federation-saml-sp-redirect-basic ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory C:\Users\MURALIS\OneDrive - Muralis\Documentos\goodfriend\goodfriend-keycloak\examples\saml\redirect-basic\src\test\resources
+[INFO] 
+[INFO] --- compiler:3.11.0:testCompile (default-testCompile) @ picketlink-federation-saml-sp-redirect-basic ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- surefire:3.2.2:test (default-test) @ picketlink-federation-saml-sp-redirect-basic ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- war:2.1.1:war (default-war) @ picketlink-federation-saml-sp-redirect-basic ---
+[INFO] Packaging webapp
+[INFO] Assembling webapp [picketlink-federation-saml-sp-redirect-basic] in [C:\Users\MURALIS\OneDrive - Muralis\Documentos\goodfriend\goodfriend-keycloak\examples\saml\redirect-basic\target\picketlink-federation-saml-sp-redirect-basic]
+[INFO] Processing war project
+[INFO] Copying webapp webResources [C:\Users\MURALIS\OneDrive - Muralis\Documentos\goodfriend\goodfriend-keycloak\examples\saml\redirect-basic/conf/jboss-eap] to [C:\Users\MURALIS\OneDrive - Muralis\Documentos\goodfriend\goodfriend-keycloak\examples\saml\redirect-basic\target\picketlink-federation-saml-sp-redirect-basic]
+[INFO] Copying webapp resources [C:\Users\MURALIS\OneDrive - Muralis\Documentos\goodfriend\goodfriend-keycloak\examples\saml\redirect-basic\src\main\webapp]
+[INFO] Webapp assembled in [32 msecs]
+[INFO] Building war: C:\Users\MURALIS\OneDrive - Muralis\Documentos\goodfriend\goodfriend-keycloak\examples\saml\redirect-basic\target\picketlink-federation-saml-sp-redirect-basic.war
+[WARNING] Warning: selected war files include a WEB-INF/web.xml which will be ignored 
+(webxml attribute is missing from war task, or ignoreWebxml attribute is specified as 'true')
+[INFO] 
+[INFO] --- install:3.1.1:install (default-install) @ picketlink-federation-saml-sp-redirect-basic ---
+[INFO] Installing C:\Users\MURALIS\OneDrive - Muralis\Documentos\goodfriend\goodfriend-keycloak\examples\saml\redirect-basic\pom.xml to C:\Users\MURALIS\.m2\repository\org\picketlink\quickstarts\picketlink-federation-saml-sp-redirect-basic\2.7.0.Beta2\picketlink-federation-saml-sp-redirect-basic-2.7.0.Beta2.pom
+[INFO] Installing C:\Users\MURALIS\OneDrive - Muralis\Documentos\goodfriend\goodfriend-keycloak\examples\saml\redirect-basic\target\picketlink-federation-saml-sp-redirect-basic.war to C:\Users\MURALIS\.m2\repository\org\picketlink\quickstarts\picketlink-federation-saml-sp-redirect-basic\2.7.0.Beta2\picketlink-federation-saml-sp-redirect-basic-2.7.0.Beta2.war
+[INFO] 
+[INFO] --< org.picketlink.quickstarts:picketlink-federation-saml-sp-redirect-with-signature >--
+[INFO] Building PicketLink Quickstart: picketlink-federation-saml-sp-redirect-with-signature 2.7.0.Beta2 [4/17]
+[INFO]   from C:\Users\MURALIS\OneDrive - Muralis\Documentos\goodfriend\goodfriend-keycloak\examples\saml\redirect-with-signature\pom.xml
+[INFO] --------------------------------[ war ]---------------------------------
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ picketlink-federation-saml-sp-redirect-with-signature ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] skip non existing resourceDirectory C:\Users\MURALIS\OneDrive - Muralis\Documentos\goodfriend\goodfriend-keycloak\examples\saml\redirect-basic\src\main\resources
+[INFO] 
+[INFO] --- compiler:3.11.0:compile (default-compile) @ picketlink-federation-saml-sp-redirect-with-signature ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ picketlink-federation-saml-sp-redirect-with-signature ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory C:\Users\MURALIS\OneDrive - Muralis\Documentos\goodfriend\goodfriend-keycloak\examples\saml\redirect-with-signature\src\test\resources
+[INFO] 
+[INFO] --- compiler:3.11.0:testCompile (default-testCompile) @ picketlink-federation-saml-sp-redirect-with-signature ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- surefire:3.2.2:test (default-test) @ picketlink-federation-saml-sp-redirect-with-signature ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- war:2.1.1:war (default-war) @ picketlink-federation-saml-sp-redirect-with-signature ---
+[INFO] Packaging webapp
+[INFO] Assembling webapp [picketlink-federation-saml-sp-redirect-with-signature] in [C:\Users\MURALIS\OneDrive - Muralis\Documentos\goodfriend\goodfriend-keycloak\examples\saml\redirect-with-signature\target\picketlink-federation-saml-sp-redirect-with-signature]
+[INFO] Processing war project
+[INFO] Copying webapp webResources [C:\Users\MURALIS\OneDrive - Muralis\Documentos\goodfriend\goodfriend-keycloak\examples\saml\redirect-with-signature\src/main/webapp] to [C:\Users\MURALIS\OneDrive - Muralis\Documentos\goodfriend\goodfriend-keycloak\examples\saml\redirect-with-signature\target\picketlink-federation-saml-sp-redirect-with-signature]
+[INFO] Copying webapp webResources [C:\Users\MURALIS\OneDrive - Muralis\Documentos\goodfriend\goodfriend-keycloak\examples\saml\redirect-with-signature\../redirect-basic/src/main/webapp] to [C:\Users\MURALIS\OneDrive - Muralis\Documentos\goodfriend\goodfriend-keycloak\examples\saml\redirect-with-signature\target\picketlink-federation-saml-sp-redirect-with-signature]
+[INFO] Copying webapp webResources [C:\Users\MURALIS\OneDrive - Muralis\Documentos\goodfriend\goodfriend-keycloak\examples\saml\redirect-with-signature/conf/jboss-eap] to [C:\Users\MURALIS\OneDrive - Muralis\Documentos\goodfriend\goodfriend-keycloak\examples\saml\redirect-with-signature\target\picketlink-federation-saml-sp-redirect-with-signature]
+[INFO] Copying webapp resources [C:\Users\MURALIS\OneDrive - Muralis\Documentos\goodfriend\goodfriend-keycloak\examples\saml\redirect-with-signature\src\main\webapp]
+[INFO] Webapp assembled in [40 msecs]
+[INFO] Building war: C:\Users\MURALIS\OneDrive - Muralis\Documentos\goodfriend\goodfriend-keycloak\examples\saml\redirect-with-signature\target\picketlink-federation-saml-sp-redirect-with-signature.war
+[WARNING] Warning: selected war files include a WEB-INF/web.xml which will be ignored 
+(webxml attribute is missing from war task, or ignoreWebxml attribute is specified as 'true')
+[INFO] 
+[INFO] --- install:3.1.1:install (default-install) @ picketlink-federation-saml-sp-redirect-with-signature ---
+[INFO] Installing C:\Users\MURALIS\OneDrive - Muralis\Documentos\goodfriend\goodfriend-keycloak\examples\saml\redirect-with-signature\pom.xml to C:\Users\MURALIS\.m2\repository\org\picketlink\quickstarts\picketlink-federation-saml-sp-redirect-with-signature\2.7.0.Beta2\picketlink-federation-saml-sp-redirect-with-signature-2.7.0.Beta2.pom
+[INFO] Installing C:\Users\MURALIS\OneDrive - Muralis\Documentos\goodfriend\goodfriend-keycloak\examples\saml\redirect-with-signature\target\picketlink-federation-saml-sp-redirect-with-signature.war to C:\Users\MURALIS\.m2\repository\org\picketlink\quickstarts\picketlink-federation-saml-sp-redirect-with-signature\2.7.0.Beta2\picketlink-federation-saml-sp-redirect-with-signature-2.7.0.Beta2.war
+[INFO] 
+[INFO] -------------< org.keycloak:keycloak-examples-saml-parent >-------------
+[INFO] Building Provider Examples 1.5.0.Final                            [5/17]
+[INFO]   from C:\Users\MURALIS\OneDrive - Muralis\Documentos\goodfriend\goodfriend-keycloak\examples\saml\pom.xml
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --- enforcer:1.4:enforce (enforce-maven) @ keycloak-examples-saml-parent ---
+[INFO] 
+[INFO] --- enforcer:1.4:enforce (enforce-java-version) @ keycloak-examples-saml-parent ---
+[INFO] 
+[INFO] --- enforcer:1.4:enforce (enforce-maven-version) @ keycloak-examples-saml-parent ---
+[INFO] 
+[INFO] --- buildnumber:1.3:create-timestamp (get-build-timestamp) @ keycloak-examples-saml-parent ---
+[INFO] 
+[INFO] --- buildnumber:1.3:create (get-scm-revision) @ keycloak-examples-saml-parent ---
+[INFO] Executing: cmd.exe /X /C "git rev-parse --verify HEAD"
+[INFO] Working directory: C:\Users\MURALIS\OneDrive - Muralis\Documentos\goodfriend\goodfriend-keycloak\examples\saml
+[INFO] Storing buildNumber: 234aae54638f911d5fb5052fa43bbae6e88c3dd9 at timestamp: 1765472154000
+[INFO] Storing buildScmBranch: feature/java8-setup
+[INFO] 
+[INFO] --- source:2.3:jar-no-fork (attach-sources) @ keycloak-examples-saml-parent ---
+[INFO] 
+[INFO] --- install:2.5.1:install (default-install) @ keycloak-examples-saml-parent ---
+[INFO] Installing C:\Users\MURALIS\OneDrive - Muralis\Documentos\goodfriend\goodfriend-keycloak\examples\saml\pom.xml to C:\Users\MURALIS\.m2\repository\org\keycloak\keycloak-examples-saml-parent\1.5.0.Final\keycloak-examples-saml-parent-1.5.0.Final.pom
+[INFO] 
+[INFO] ----------< org.keycloak.example.demo:keycloak-examples-ldap >----------
+[INFO] Building LDAP Demo Application 1.5.0.Final                        [6/17]
+[INFO]   from C:\Users\MURALIS\OneDrive - Muralis\Documentos\goodfriend\goodfriend-keycloak\examples\ldap\pom.xml
+[INFO] --------------------------------[ war ]---------------------------------
+[INFO] 
+[INFO] --- enforcer:1.4:enforce (enforce-maven) @ keycloak-examples-ldap ---
+[INFO] 
+[INFO] --- enforcer:1.4:enforce (enforce-java-version) @ keycloak-examples-ldap ---
+[INFO] 
+[INFO] --- enforcer:1.4:enforce (enforce-maven-version) @ keycloak-examples-ldap ---
+[INFO] 
+[INFO] --- buildnumber:1.3:create-timestamp (get-build-timestamp) @ keycloak-examples-ldap ---
+[INFO] 
+[INFO] --- buildnumber:1.3:create (get-scm-revision) @ keycloak-examples-ldap ---
+[INFO] 
+[INFO] --- resources:2.6:resources (default-resources) @ keycloak-examples-ldap ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Users\MURALIS\OneDrive - Muralis\Documentos\goodfriend\goodfriend-keycloak\examples\ldap\src\main\resources
+[INFO] 
+[INFO] --- compiler:3.1:compile (default-compile) @ keycloak-examples-ldap ---
+[WARNING]  Parameter 'compilerArguments' is deprecated: use {@link #compilerArgs} instead.
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- resources:2.6:testResources (default-testResources) @ keycloak-examples-ldap ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Users\MURALIS\OneDrive - Muralis\Documentos\goodfriend\goodfriend-keycloak\examples\ldap\src\test\resources
+[INFO] 
+[INFO] --- compiler:3.1:testCompile (default-testCompile) @ keycloak-examples-ldap ---
+[WARNING]  Parameter 'compilerArguments' is deprecated: use {@link #compilerArgs} instead.
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- surefire:2.17:test (default-test) @ keycloak-examples-ldap ---
+[WARNING]  Parameter 'systemProperties' is deprecated: Use systemPropertyVariables instead.
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- war:2.4:war (default-war) @ keycloak-examples-ldap ---
+[INFO] Packaging webapp
+[INFO] Assembling webapp [keycloak-examples-ldap] in [C:\Users\MURALIS\OneDrive - Muralis\Documentos\goodfriend\goodfriend-keycloak\examples\ldap\target\ldap-portal]
+[INFO] Processing war project
+[INFO] Copying webapp resources [C:\Users\MURALIS\OneDrive - Muralis\Documentos\goodfriend\goodfriend-keycloak\examples\ldap\src\main\webapp]
+[INFO] Webapp assembled in [28 msecs]
+[INFO] Building war: C:\Users\MURALIS\OneDrive - Muralis\Documentos\goodfriend\goodfriend-keycloak\examples\ldap\target\ldap-portal.war
+[INFO] 
+[INFO] --- source:2.3:jar-no-fork (attach-sources) @ keycloak-examples-ldap ---
+[INFO] No sources in project. Archive not created.
+[INFO] 
+[INFO] --- install:2.5.1:install (default-install) @ keycloak-examples-ldap ---
+[INFO] Installing C:\Users\MURALIS\OneDrive - Muralis\Documentos\goodfriend\goodfriend-keycloak\examples\ldap\target\ldap-portal.war to C:\Users\MURALIS\.m2\repository\org\keycloak\example\demo\keycloak-examples-ldap\1.5.0.Final\keycloak-examples-ldap-1.5.0.Final.war
+[INFO] Installing C:\Users\MURALIS\OneDrive - Muralis\Documentos\goodfriend\goodfriend-keycloak\examples\ldap\pom.xml to C:\Users\MURALIS\.m2\repository\org\keycloak\example\demo\keycloak-examples-ldap\1.5.0.Final\keycloak-examples-ldap-1.5.0.Final.pom
+[INFO] 
+[INFO] ----------------< org.keycloak:keycloak-testsuite-pom >-----------------
+[INFO] Building Keycloak TestSuite 1.5.0.Final                           [7/17]
+[INFO]   from C:\Users\MURALIS\OneDrive - Muralis\Documentos\goodfriend\goodfriend-keycloak\testsuite\pom.xml
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --- enforcer:1.4:enforce (enforce-maven) @ keycloak-testsuite-pom ---
+[INFO] 
+[INFO] --- enforcer:1.4:enforce (enforce-java-version) @ keycloak-testsuite-pom ---
+[INFO] 
+[INFO] --- enforcer:1.4:enforce (enforce-maven-version) @ keycloak-testsuite-pom ---
+[INFO] 
+[INFO] --- buildnumber:1.3:create-timestamp (get-build-timestamp) @ keycloak-testsuite-pom ---
+[INFO] 
+[INFO] --- buildnumber:1.3:create (get-scm-revision) @ keycloak-testsuite-pom ---
+[INFO] 
+[INFO] --- source:2.3:jar-no-fork (attach-sources) @ keycloak-testsuite-pom ---
+[INFO] 
+[INFO] --- install:2.5.1:install (default-install) @ keycloak-testsuite-pom ---
+[INFO] Installing C:\Users\MURALIS\OneDrive - Muralis\Documentos\goodfriend\goodfriend-keycloak\testsuite\pom.xml to C:\Users\MURALIS\.m2\repository\org\keycloak\keycloak-testsuite-pom\1.5.0.Final\keycloak-testsuite-pom-1.5.0.Final.pom
+[INFO] 
+[INFO] ------------< org.keycloak:keycloak-testsuite-integration >-------------
+[INFO] Building Keycloak Integration TestSuite 1.5.0.Final               [8/17]
+[INFO]   from C:\Users\MURALIS\OneDrive - Muralis\Documentos\goodfriend\goodfriend-keycloak\testsuite\integration\pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- enforcer:1.4:enforce (enforce-maven) @ keycloak-testsuite-integration ---
+[INFO] 
+[INFO] --- enforcer:1.4:enforce (enforce-java-version) @ keycloak-testsuite-integration ---
+[INFO] 
+[INFO] --- enforcer:1.4:enforce (enforce-maven-version) @ keycloak-testsuite-integration ---
+[INFO] 
+[INFO] --- buildnumber:1.3:create-timestamp (get-build-timestamp) @ keycloak-testsuite-integration ---
+[INFO] 
+[INFO] --- buildnumber:1.3:create (get-scm-revision) @ keycloak-testsuite-integration ---
+[INFO] 
+[INFO] --- resources:2.6:resources (default-resources) @ keycloak-testsuite-integration ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Users\MURALIS\OneDrive - Muralis\Documentos\goodfriend\goodfriend-keycloak\testsuite\integration\src\main\resources
+[INFO] 
+[INFO] --- compiler:3.1:compile (default-compile) @ keycloak-testsuite-integration ---
+[WARNING]  Parameter 'compilerArguments' is deprecated: use {@link #compilerArgs} instead.
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- resources:2.6:testResources (default-testResources) @ keycloak-testsuite-integration ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 81 resources
+[INFO] 
+[INFO] --- compiler:3.1:testCompile (default-testCompile) @ keycloak-testsuite-integration ---
+[WARNING]  Parameter 'compilerArguments' is deprecated: use {@link #compilerArgs} instead.
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 154 source files to C:\Users\MURALIS\OneDrive - Muralis\Documentos\goodfriend\goodfriend-keycloak\testsuite\integration\target\test-classes
+[WARNING] bootstrap class path not set in conjunction with -source 1.7
+[WARNING] /C:/Users/MURALIS/OneDrive - Muralis/Documentos/goodfriend/goodfriend-keycloak/testsuite/integration/src/test/java/org/keycloak/testsuite/KeycloakServer.java:[27,31] io.undertow.servlet.api.DefaultServletConfig in io.undertow.servlet.api has been deprecated
+[WARNING] /C:/Users/MURALIS/OneDrive - Muralis/Documentos/goodfriend/goodfriend-keycloak/testsuite/integration/src/test/java/org/keycloak/testsuite/KeycloakServer.java:[38,37] org.keycloak.services.filters.ClientConnectionFilter in org.keycloak.services.filters has been deprecated
+[WARNING] /C:/Users/MURALIS/OneDrive - Muralis/Documentos/goodfriend/goodfriend-keycloak/testsuite/integration/src/test/java/org/keycloak/testsuite/OAuthClient.java:[32,35] org.apache.http.impl.client.DefaultHttpClient in org.apache.http.impl.client has been deprecated
+[WARNING] /C:/Users/MURALIS/OneDrive - Muralis/Documentos/goodfriend/goodfriend-keycloak/testsuite/integration/src/test/java/org/keycloak/testsuite/perf/AccessTokenPerfTest.java:[28,35] org.apache.http.impl.client.DefaultHttpClient in org.apache.http.impl.client has been deprecated
+[WARNING] /C:/Users/MURALIS/OneDrive - Muralis/Documentos/goodfriend/goodfriend-keycloak/testsuite/integration/src/test/java/org/keycloak/testsuite/federation/AbstractKerberosTest.java:[11,37] org.apache.http.client.params.AuthPolicy in org.apache.http.client.params has been deprecated
+[WARNING] /C:/Users/MURALIS/OneDrive - Muralis/Documentos/goodfriend/goodfriend-keycloak/testsuite/integration/src/test/java/org/keycloak/testsuite/federation/AbstractKerberosTest.java:[12,35] org.apache.http.impl.client.DefaultHttpClient in org.apache.http.impl.client has been deprecated
+[WARNING] /C:/Users/MURALIS/OneDrive - Muralis/Documentos/goodfriend/goodfriend-keycloak/testsuite/integration/src/test/java/org/keycloak/testsuite/federation/KeycloakSPNegoSchemeFactory.java:[10,30] org.apache.http.params.HttpParams in org.apache.http.params has been deprecated
+[WARNING] /C:/Users/MURALIS/OneDrive - Muralis/Documentos/goodfriend/goodfriend-keycloak/testsuite/integration/src/test/java/org/keycloak/testsuite/i18n/LoginPageTest.java:[24,35] org.apache.http.impl.client.DefaultHttpClient in org.apache.http.impl.client has been deprecated
+[WARNING] /C:/Users/MURALIS/OneDrive - Muralis/Documentos/goodfriend/goodfriend-keycloak/testsuite/integration/src/test/java/org/keycloak/testsuite/jaxrs/JaxrsBasicAuthTest.java:[12,35] org.apache.http.impl.client.DefaultHttpClient in org.apache.http.impl.client has been deprecated
+[WARNING] /C:/Users/MURALIS/OneDrive - Muralis/Documentos/goodfriend/goodfriend-keycloak/testsuite/integration/src/test/java/org/keycloak/testsuite/oauth/ClientAuthSignedJWTTest.java:[14,35] org.apache.http.impl.client.DefaultHttpClient in org.apache.http.impl.client has been deprecated
+[WARNING] /C:/Users/MURALIS/OneDrive - Muralis/Documentos/goodfriend/goodfriend-keycloak/testsuite/integration/src/test/java/org/keycloak/testsuite/jaxrs/JaxrsFilterTest.java:[12,35] org.apache.http.impl.client.DefaultHttpClient in org.apache.http.impl.client has been deprecated
+[WARNING] /C:/Users/MURALIS/OneDrive - Muralis/Documentos/goodfriend/goodfriend-keycloak/testsuite/integration/src/test/java/org/keycloak/testsuite/oauth/AccessTokenTest.java:[28,35] org.apache.http.impl.client.DefaultHttpClient in org.apache.http.impl.client has been deprecated
+[WARNING] /C:/Users/MURALIS/OneDrive - Muralis/Documentos/goodfriend/goodfriend-keycloak/testsuite/integration/src/test/java/org/keycloak/testsuite/account/ProfileTest.java:[8,35] org.apache.http.impl.client.DefaultHttpClient in org.apache.http.impl.client has been deprecated
+[WARNING] /C:/Users/MURALIS/OneDrive - Muralis/Documentos/goodfriend/goodfriend-keycloak/testsuite/integration/src/test/java/org/keycloak/testsuite/oauth/ResourceOwnerPasswordCredentialsGrantTest.java:[7,35] org.apache.http.impl.client.DefaultHttpClient in org.apache.http.impl.client has been deprecated
+[WARNING] /C:/Users/MURALIS/OneDrive - Muralis/Documentos/goodfriend/goodfriend-keycloak/testsuite/integration/src/test/java/org/keycloak/testsuite/KeycloakServer.java:[300,40] io.undertow.servlet.api.DefaultServletConfig in io.undertow.servlet.api has been deprecated
+[WARNING] /C:/Users/MURALIS/OneDrive - Muralis/Documentos/goodfriend/goodfriend-keycloak/testsuite/integration/src/test/java/org/keycloak/testsuite/KeycloakServer.java:[307,81] org.keycloak.services.filters.ClientConnectionFilter in org.keycloak.services.filters has been deprecated
+[WARNING] /C:/Users/MURALIS/OneDrive - Muralis/Documentos/goodfriend/goodfriend-keycloak/testsuite/integration/src/test/java/org/keycloak/testsuite/OAuthClient.java:[117,42] org.apache.http.impl.client.DefaultHttpClient in org.apache.http.impl.client has been deprecated
+[WARNING] /C:/Users/MURALIS/OneDrive - Muralis/Documentos/goodfriend/goodfriend-keycloak/testsuite/integration/src/test/java/org/keycloak/testsuite/OAuthClient.java:[169,42] org.apache.http.impl.client.DefaultHttpClient in org.apache.http.impl.client has been deprecated
+[WARNING] /C:/Users/MURALIS/OneDrive - Muralis/Documentos/goodfriend/goodfriend-keycloak/testsuite/integration/src/test/java/org/keycloak/testsuite/OAuthClient.java:[211,42] org.apache.http.impl.client.DefaultHttpClient in org.apache.http.impl.client has been deprecated
+[WARNING] /C:/Users/MURALIS/OneDrive - Muralis/Documentos/goodfriend/goodfriend-keycloak/testsuite/integration/src/test/java/org/keycloak/testsuite/OAuthClient.java:[237,42] org.apache.http.impl.client.DefaultHttpClient in org.apache.http.impl.client has been deprecated
+[WARNING] /C:/Users/MURALIS/OneDrive - Muralis/Documentos/goodfriend/goodfriend-keycloak/testsuite/integration/src/test/java/org/keycloak/testsuite/OAuthClient.java:[267,42] org.apache.http.impl.client.DefaultHttpClient in org.apache.http.impl.client has been deprecated
+[WARNING] /C:/Users/MURALIS/OneDrive - Muralis/Documentos/goodfriend/goodfriend-keycloak/testsuite/integration/src/test/java/org/keycloak/testsuite/perf/AccessTokenPerfTest.java:[112,13] org.apache.http.impl.client.DefaultHttpClient in org.apache.http.impl.client has been deprecated
+[WARNING] /C:/Users/MURALIS/OneDrive - Muralis/Documentos/goodfriend/goodfriend-keycloak/testsuite/integration/src/test/java/org/keycloak/testsuite/perf/AccessTokenPerfTest.java:[112,45] org.apache.http.impl.client.DefaultHttpClient in org.apache.http.impl.client has been deprecated
+[WARNING] /C:/Users/MURALIS/OneDrive - Muralis/Documentos/goodfriend/goodfriend-keycloak/testsuite/integration/src/test/java/org/keycloak/testsuite/federation/AbstractKerberosTest.java:[257,9] org.apache.http.impl.client.DefaultHttpClient in org.apache.http.impl.client has been deprecated
+[WARNING] /C:/Users/MURALIS/OneDrive - Muralis/Documentos/goodfriend/goodfriend-keycloak/testsuite/integration/src/test/java/org/keycloak/testsuite/federation/AbstractKerberosTest.java:[257,41] org.apache.http.impl.client.DefaultHttpClient in org.apache.http.impl.client has been deprecated
+[WARNING] /C:/Users/MURALIS/OneDrive - Muralis/Documentos/goodfriend/goodfriend-keycloak/testsuite/integration/src/test/java/org/keycloak/testsuite/federation/AbstractKerberosTest.java:[258,46] org.apache.http.client.params.AuthPolicy in org.apache.http.client.params has been deprecated
+[WARNING] /C:/Users/MURALIS/OneDrive - Muralis/Documentos/goodfriend/goodfriend-keycloak/testsuite/integration/src/test/java/org/keycloak/testsuite/federation/KeycloakSPNegoSchemeFactory.java:[45,35] org.apache.http.params.HttpParams in org.apache.http.params has been deprecated
+[WARNING] /C:/Users/MURALIS/OneDrive - Muralis/Documentos/goodfriend/goodfriend-keycloak/testsuite/integration/src/test/java/org/keycloak/testsuite/i18n/LoginPageTest.java:[109,9] org.apache.http.impl.client.DefaultHttpClient in org.apache.http.impl.client has been deprecated
+[WARNING] /C:/Users/MURALIS/OneDrive - Muralis/Documentos/goodfriend/goodfriend-keycloak/testsuite/integration/src/test/java/org/keycloak/testsuite/i18n/LoginPageTest.java:[109,41] org.apache.http.impl.client.DefaultHttpClient in org.apache.http.impl.client has been deprecated
+[WARNING] /C:/Users/MURALIS/OneDrive - Muralis/Documentos/goodfriend/goodfriend-keycloak/testsuite/integration/src/test/java/org/keycloak/testsuite/jaxrs/JaxrsBasicAuthTest.java:[60,13] org.apache.http.impl.client.DefaultHttpClient in org.apache.http.impl.client has been deprecated
+[WARNING] /C:/Users/MURALIS/OneDrive - Muralis/Documentos/goodfriend/goodfriend-keycloak/testsuite/integration/src/test/java/org/keycloak/testsuite/jaxrs/JaxrsBasicAuthTest.java:[60,45] org.apache.http.impl.client.DefaultHttpClient in org.apache.http.impl.client has been deprecated
+[WARNING] /C:/Users/MURALIS/OneDrive - Muralis/Documentos/goodfriend/goodfriend-keycloak/testsuite/integration/src/test/java/org/keycloak/testsuite/oauth/ClientAuthSignedJWTTest.java:[468,42] org.apache.http.impl.client.DefaultHttpClient in org.apache.http.impl.client has been deprecated
+[WARNING] /C:/Users/MURALIS/OneDrive - Muralis/Documentos/goodfriend/goodfriend-keycloak/testsuite/integration/src/test/java/org/keycloak/testsuite/jaxrs/JaxrsFilterTest.java:[71,13] org.apache.http.impl.client.DefaultHttpClient in org.apache.http.impl.client has been deprecated
+[WARNING] /C:/Users/MURALIS/OneDrive - Muralis/Documentos/goodfriend/goodfriend-keycloak/testsuite/integration/src/test/java/org/keycloak/testsuite/jaxrs/JaxrsFilterTest.java:[71,45] org.apache.http.impl.client.DefaultHttpClient in org.apache.http.impl.client has been deprecated
+[WARNING] /C:/Users/MURALIS/OneDrive - Muralis/Documentos/goodfriend/goodfriend-keycloak/testsuite/integration/src/test/java/org/keycloak/testsuite/admin/AdminAPITest.java:[259,16] getRequiredCredentials() in org.keycloak.representations.idm.RealmRepresentation has been deprecated
+[WARNING] /C:/Users/MURALIS/OneDrive - Muralis/Documentos/goodfriend/goodfriend-keycloak/testsuite/integration/src/test/java/org/keycloak/testsuite/admin/AdminAPITest.java:[260,45] getRequiredCredentials() in org.keycloak.representations.idm.RealmRepresentation has been deprecated
+[WARNING] /C:/Users/MURALIS/OneDrive - Muralis/Documentos/goodfriend/goodfriend-keycloak/testsuite/integration/src/test/java/org/keycloak/testsuite/admin/AdminAPITest.java:[261,35] getRequiredCredentials() in org.keycloak.representations.idm.RealmRepresentation has been deprecated
+[WARNING] /C:/Users/MURALIS/OneDrive - Muralis/Documentos/goodfriend/goodfriend-keycloak/testsuite/integration/src/test/java/org/keycloak/testsuite/admin/AdminAPITest.java:[262,46] getRequiredCredentials() in org.keycloak.representations.idm.RealmRepresentation has been deprecated
+[WARNING] /C:/Users/MURALIS/OneDrive - Muralis/Documentos/goodfriend/goodfriend-keycloak/testsuite/integration/src/test/java/org/keycloak/testsuite/oauth/AccessTokenTest.java:[754,42] org.apache.http.impl.client.DefaultHttpClient in org.apache.http.impl.client has been deprecated
+[WARNING] /C:/Users/MURALIS/OneDrive - Muralis/Documentos/goodfriend/goodfriend-keycloak/testsuite/integration/src/test/java/org/keycloak/testsuite/account/ProfileTest.java:[219,33] org.apache.http.impl.client.DefaultHttpClient in org.apache.http.impl.client has been deprecated
+[WARNING] /C:/Users/MURALIS/OneDrive - Muralis/Documentos/goodfriend/goodfriend-keycloak/testsuite/integration/src/test/java/org/keycloak/testsuite/oauth/ResourceOwnerPasswordCredentialsGrantTest.java:[261,9] org.apache.http.impl.client.DefaultHttpClient in org.apache.http.impl.client has been deprecated
+[WARNING] /C:/Users/MURALIS/OneDrive - Muralis/Documentos/goodfriend/goodfriend-keycloak/testsuite/integration/src/test/java/org/keycloak/testsuite/oauth/ResourceOwnerPasswordCredentialsGrantTest.java:[261,40] org.apache.http.impl.client.DefaultHttpClient in org.apache.http.impl.client has been deprecated
+[WARNING] /C:/Users/MURALIS/OneDrive - Muralis/Documentos/goodfriend/goodfriend-keycloak/testsuite/integration/src/test/java/org/keycloak/testsuite/broker/IdentityProviderRegistrationTest.java: Some input files use unchecked or unsafe operations.
+[WARNING] /C:/Users/MURALIS/OneDrive - Muralis/Documentos/goodfriend/goodfriend-keycloak/testsuite/integration/src/test/java/org/keycloak/testsuite/broker/IdentityProviderRegistrationTest.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- surefire:2.17:test (default-test) @ keycloak-testsuite-integration ---
+[WARNING]  Parameter 'systemProperties' is deprecated: Use systemPropertyVariables instead.
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jar:2.2:jar (default-jar) @ keycloak-testsuite-integration ---
+Downloading from jboss-earlyaccess-plugin-repository: https://maven.repository.redhat.com/earlyaccess/all/org/apache/maven/maven-archiver/2.3/maven-archiver-2.3.pom
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-archiver/2.3/maven-archiver-2.3.pom
+Progress (1): 836 BProgress (1): 1.9 kBProgress (1): 3.7 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-archiver/2.3/maven-archiver-2.3.pom (3.7 kB at 22 kB/s)
+Downloading from jboss-earlyaccess-plugin-repository: https://maven.repository.redhat.com/earlyaccess/all/org/apache/maven/maven-artifact/2.0/maven-artifact-2.0.pom
+Progress (1): 723 B                   Downloaded from jboss-earlyaccess-plugin-repository: https://maven.repository.redhat.com/earlyaccess/all/org/apache/maven/maven-artifact/2.0/maven-artifact-2.0.pom (723 B at 1.8 kB/s)
+[INFO] Artifact org.apache.maven:maven:pom:2.0 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [jboss-earlyaccess-plugin-repository (https://maven.repository.redhat.com/earlyaccess/all/, default, releases), central (https://repo.maven.apache.org/maven2, default, releases), maven-default-http-blocker (http://0.0.0.0/, default, snapshots, blocked)]
+[INFO] Artifact org.apache.maven:maven:pom:2.0 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [jboss-earlyaccess-plugin-repository (https://maven.repository.redhat.com/earlyaccess/all/, default, releases), central (https://repo.maven.apache.org/maven2, default, releases), maven-default-http-blocker (http://0.0.0.0/, default, snapshots, blocked)]
+Downloading from jboss-earlyaccess-plugin-repository: https://maven.repository.redhat.com/earlyaccess/all/org/apache/maven/maven/2.0/maven-2.0.pom
+Downloaded from jboss-earlyaccess-plugin-repository: https://maven.repository.redhat.com/earlyaccess/all/org/apache/maven/maven/2.0/maven-2.0.pom (0 B at 0 B/s)
+Downloading from jboss-earlyaccess-plugin-repository: https://maven.repository.redhat.com/earlyaccess/all/org/apache/maven/maven-model/2.0/maven-model-2.0.pom
+Progress (1): 2.4 kB                    Downloaded from jboss-earlyaccess-plugin-repository: https://maven.repository.redhat.com/earlyaccess/all/org/apache/maven/maven-model/2.0/maven-model-2.0.pom (2.4 kB at 5.0 kB/s)
+Downloading from jboss-earlyaccess-plugin-repository: https://maven.repository.redhat.com/earlyaccess/all/org/apache/maven/maven-project/2.0/maven-project-2.0.pom
+Progress (1): 1.6 kB                    Downloaded from jboss-earlyaccess-plugin-repository: https://maven.repository.redhat.com/earlyaccess/all/org/apache/maven/maven-project/2.0/maven-project-2.0.pom (1.6 kB at 3.8 kB/s)
+Downloading from jboss-earlyaccess-plugin-repository: https://maven.repository.redhat.com/earlyaccess/all/org/apache/maven/maven-profile/2.0/maven-profile-2.0.pom
+Progress (1): 1.4 kB                    Downloaded from jboss-earlyaccess-plugin-repository: https://maven.repository.redhat.com/earlyaccess/all/org/apache/maven/maven-profile/2.0/maven-profile-2.0.pom (1.4 kB at 3.4 kB/s)
+Downloading from jboss-earlyaccess-plugin-repository: https://maven.repository.redhat.com/earlyaccess/all/org/apache/maven/maven-artifact-manager/2.0/maven-artifact-manager-2.0.pom
+Progress (1): 1.3 kB                    Downloaded from jboss-earlyaccess-plugin-repository: https://maven.repository.redhat.com/earlyaccess/all/org/apache/maven/maven-artifact-manager/2.0/maven-artifact-manager-2.0.pom (1.3 kB at 2.6 kB/s)
+Downloading from jboss-earlyaccess-plugin-repository: https://maven.repository.redhat.com/earlyaccess/all/org/apache/maven/maven-repository-metadata/2.0/maven-repository-metadata-2.0.pom
+Progress (1): 1.2 kB                    Downloaded from jboss-earlyaccess-plugin-repository: https://maven.repository.redhat.com/earlyaccess/all/org/apache/maven/maven-repository-metadata/2.0/maven-repository-metadata-2.0.pom (1.2 kB at 2.8 kB/s)
+Downloading from jboss-earlyaccess-plugin-repository: https://maven.repository.redhat.com/earlyaccess/all/org/codehaus/plexus/plexus-archiver/1.0-alpha-9/plexus-archiver-1.0-alpha-9.pom
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-archiver/1.0-alpha-9/plexus-archiver-1.0-alpha-9.pom
+Progress (1): 1.8 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-archiver/1.0-alpha-9/plexus-archiver-1.0-alpha-9.pom (1.8 kB at 34 kB/s)
+Downloading from jboss-earlyaccess-plugin-repository: https://maven.repository.redhat.com/earlyaccess/all/org/codehaus/plexus/plexus-components/1.1.9/plexus-components-1.1.9.pom
+Progress (1): 2.4 kB                    Downloaded from jboss-earlyaccess-plugin-repository: https://maven.repository.redhat.com/earlyaccess/all/org/codehaus/plexus/plexus-components/1.1.9/plexus-components-1.1.9.pom (2.4 kB at 7.9 kB/s)
+Downloading from jboss-earlyaccess-plugin-repository: https://maven.repository.redhat.com/earlyaccess/all/org/codehaus/plexus/plexus-container-default/1.0-alpha-15/plexus-container-default-1.0-alpha-15.pom
+Progress (1): 1.7 kB                    Downloaded from jboss-earlyaccess-plugin-repository: https://maven.repository.redhat.com/earlyaccess/all/org/codehaus/plexus/plexus-container-default/1.0-alpha-15/plexus-container-default-1.0-alpha-15.pom (1.7 kB at 3.9 kB/s)
+Downloading from jboss-earlyaccess-plugin-repository: https://maven.repository.redhat.com/earlyaccess/all/org/codehaus/plexus/plexus-containers/1.0-alpha-15/plexus-containers-1.0-alpha-15.pom
+Progress (1): 1.9 kB                    Downloaded from jboss-earlyaccess-plugin-repository: https://maven.repository.redhat.com/earlyaccess/all/org/codehaus/plexus/plexus-containers/1.0-alpha-15/plexus-containers-1.0-alpha-15.pom (1.9 kB at 4.6 kB/s)
+[INFO] Artifact org.codehaus.plexus:plexus:pom:1.0.9 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [jboss-earlyaccess-plugin-repository (https://maven.repository.redhat.com/earlyaccess/all/, default, releases), central (https://repo.maven.apache.org/maven2, default, releases), maven-default-http-blocker (http://0.0.0.0/, default, snapshots, blocked)]
+[INFO] Artifact org.codehaus.plexus:plexus:pom:1.0.9 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [jboss-earlyaccess-plugin-repository (https://maven.repository.redhat.com/earlyaccess/all/, default, releases), central (https://repo.maven.apache.org/maven2, default, releases), maven-default-http-blocker (http://0.0.0.0/, default, snapshots, blocked)]
+Downloading from jboss-earlyaccess-plugin-repository: https://maven.repository.redhat.com/earlyaccess/all/org/codehaus/plexus/plexus/1.0.9/plexus-1.0.9.pom
+Downloaded from jboss-earlyaccess-plugin-repository: https://maven.repository.redhat.com/earlyaccess/all/org/codehaus/plexus/plexus/1.0.9/plexus-1.0.9.pom (0 B at 0 B/s)
+Downloading from jboss-earlyaccess-plugin-repository: https://maven.repository.redhat.com/earlyaccess/all/org/codehaus/plexus/plexus-component-api/1.0-alpha-15/plexus-component-api-1.0-alpha-15.pom
+Progress (1): 948 B                   Downloaded from jboss-earlyaccess-plugin-repository: https://maven.repository.redhat.com/earlyaccess/all/org/codehaus/plexus/plexus-component-api/1.0-alpha-15/plexus-component-api-1.0-alpha-15.pom (948 B at 2.0 kB/s)
+Downloading from jboss-earlyaccess-plugin-repository: https://maven.repository.redhat.com/earlyaccess/all/org/codehaus/plexus/plexus-classworlds/1.2-alpha-6/plexus-classworlds-1.2-alpha-6.pom
+Progress (1): 2.4 kB                    Downloaded from jboss-earlyaccess-plugin-repository: https://maven.repository.redhat.com/earlyaccess/all/org/codehaus/plexus/plexus-classworlds/1.2-alpha-6/plexus-classworlds-1.2-alpha-6.pom (2.4 kB at 6.1 kB/s)
+[INFO] Artifact org.codehaus.plexus:plexus-utils:pom:1.3 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [jboss-earlyaccess-plugin-repository (https://maven.repository.redhat.com/earlyaccess/all/, default, releases), central (https://repo.maven.apache.org/maven2, default, releases), maven-default-http-blocker (http://0.0.0.0/, default, snapshots, blocked)]
+[INFO] Artifact org.codehaus.plexus:plexus-utils:pom:1.3 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [jboss-earlyaccess-plugin-repository (https://maven.repository.redhat.com/earlyaccess/all/, default, releases), central (https://repo.maven.apache.org/maven2, default, releases), maven-default-http-blocker (http://0.0.0.0/, default, snapshots, blocked)]
+Downloading from jboss-earlyaccess-plugin-repository: https://maven.repository.redhat.com/earlyaccess/all/org/codehaus/plexus/plexus-utils/1.3/plexus-utils-1.3.pom
+Downloaded from jboss-earlyaccess-plugin-repository: https://maven.repository.redhat.com/earlyaccess/all/org/codehaus/plexus/plexus-utils/1.3/plexus-utils-1.3.pom (0 B at 0 B/s)
+[INFO] Artifact org.codehaus.plexus:plexus:pom:1.0.8 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [jboss-earlyaccess-plugin-repository (https://maven.repository.redhat.com/earlyaccess/all/, default, releases), central (https://repo.maven.apache.org/maven2, default, releases), maven-default-http-blocker (http://0.0.0.0/, default, snapshots, blocked)]
+[INFO] Artifact org.codehaus.plexus:plexus:pom:1.0.8 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [jboss-earlyaccess-plugin-repository (https://maven.repository.redhat.com/earlyaccess/all/, default, releases), central (https://repo.maven.apache.org/maven2, default, releases), maven-default-http-blocker (http://0.0.0.0/, default, snapshots, blocked)]
+Downloading from jboss-earlyaccess-plugin-repository: https://maven.repository.redhat.com/earlyaccess/all/org/codehaus/plexus/plexus/1.0.8/plexus-1.0.8.pom
+Downloaded from jboss-earlyaccess-plugin-repository: https://maven.repository.redhat.com/earlyaccess/all/org/codehaus/plexus/plexus/1.0.8/plexus-1.0.8.pom (0 B at 0 B/s)
+Downloading from jboss-earlyaccess-plugin-repository: https://maven.repository.redhat.com/earlyaccess/all/org/codehaus/plexus/plexus-io/1.0-alpha-1/plexus-io-1.0-alpha-1.pom
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-io/1.0-alpha-1/plexus-io-1.0-alpha-1.pom
+Progress (1): 1.3 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-io/1.0-alpha-1/plexus-io-1.0-alpha-1.pom (1.3 kB at 26 kB/s)
+Downloading from jboss-earlyaccess-plugin-repository: https://maven.repository.redhat.com/earlyaccess/all/org/codehaus/plexus/plexus-component-api/1.0-alpha-16/plexus-component-api-1.0-alpha-16.pom
+Progress (1): 2.2 kB                    Downloaded from jboss-earlyaccess-plugin-repository: https://maven.repository.redhat.com/earlyaccess/all/org/codehaus/plexus/plexus-component-api/1.0-alpha-16/plexus-component-api-1.0-alpha-16.pom (2.2 kB at 4.6 kB/s)
+Downloading from jboss-earlyaccess-plugin-repository: https://maven.repository.redhat.com/earlyaccess/all/org/codehaus/plexus/plexus-containers/1.0-alpha-16/plexus-containers-1.0-alpha-16.pom
+Progress (1): 1.9 kB                    Downloaded from jboss-earlyaccess-plugin-repository: https://maven.repository.redhat.com/earlyaccess/all/org/codehaus/plexus/plexus-containers/1.0-alpha-16/plexus-containers-1.0-alpha-16.pom (1.9 kB at 5.7 kB/s)
+[INFO] Artifact org.codehaus.plexus:plexus-classworlds:pom:1.2-alpha-7 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [jboss-earlyaccess-plugin-repository (https://maven.repository.redhat.com/earlyaccess/all/, default, releases), central (https://repo.maven.apache.org/maven2, default, releases), maven-default-http-blocker (http://0.0.0.0/, default, snapshots, blocked)]
+[INFO] Artifact org.codehaus.plexus:plexus-classworlds:pom:1.2-alpha-7 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [jboss-earlyaccess-plugin-repository (https://maven.repository.redhat.com/earlyaccess/all/, default, releases), central (https://repo.maven.apache.org/maven2, default, releases), maven-default-http-blocker (http://0.0.0.0/, default, snapshots, blocked)]
+Downloading from jboss-earlyaccess-plugin-repository: https://maven.repository.redhat.com/earlyaccess/all/org/codehaus/plexus/plexus-classworlds/1.2-alpha-7/plexus-classworlds-1.2-alpha-7.pom
+Downloaded from jboss-earlyaccess-plugin-repository: https://maven.repository.redhat.com/earlyaccess/all/org/codehaus/plexus/plexus-classworlds/1.2-alpha-7/plexus-classworlds-1.2-alpha-7.pom (0 B at 0 B/s)
+Downloading from jboss-earlyaccess-plugin-repository: https://maven.repository.redhat.com/earlyaccess/all/org/codehaus/plexus/plexus-utils/1.4.9/plexus-utils-1.4.9.pom
+Progress (1): 2.3 kB                    Downloaded from jboss-earlyaccess-plugin-repository: https://maven.repository.redhat.com/earlyaccess/all/org/codehaus/plexus/plexus-utils/1.4.9/plexus-utils-1.4.9.pom (2.3 kB at 5.9 kB/s)
+[INFO] Artifact commons-lang:commons-lang:pom:2.1 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [jboss-earlyaccess-plugin-repository (https://maven.repository.redhat.com/earlyaccess/all/, default, releases), central (https://repo.maven.apache.org/maven2, default, releases), maven-default-http-blocker (http://0.0.0.0/, default, snapshots, blocked)]
+[INFO] Artifact commons-lang:commons-lang:pom:2.1 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [jboss-earlyaccess-plugin-repository (https://maven.repository.redhat.com/earlyaccess/all/, default, releases), central (https://repo.maven.apache.org/maven2, default, releases), maven-default-http-blocker (http://0.0.0.0/, default, snapshots, blocked)]
+Downloading from jboss-earlyaccess-plugin-repository: https://maven.repository.redhat.com/earlyaccess/all/commons-lang/commons-lang/2.1/commons-lang-2.1.pom
+Downloaded from jboss-earlyaccess-plugin-repository: https://maven.repository.redhat.com/earlyaccess/all/commons-lang/commons-lang/2.1/commons-lang-2.1.pom (0 B at 0 B/s)
+[INFO] Artifact commons-lang:commons-lang:jar:2.1 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [jboss-earlyaccess-plugin-repository (https://maven.repository.redhat.com/earlyaccess/all/, default, releases), central (https://repo.maven.apache.org/maven2, default, releases), maven-default-http-blocker (http://0.0.0.0/, default, snapshots, blocked)]
+[INFO] Artifact commons-lang:commons-lang:jar:2.1 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [jboss-earlyaccess-plugin-repository (https://maven.repository.redhat.com/earlyaccess/all/, default, releases), central (https://repo.maven.apache.org/maven2, default, releases), maven-default-http-blocker (http://0.0.0.0/, default, snapshots, blocked)]
+Downloading from jboss-earlyaccess-plugin-repository: https://maven.repository.redhat.com/earlyaccess/all/org/apache/maven/maven-archiver/2.3/maven-archiver-2.3.jar
+Downloading from jboss-earlyaccess-plugin-repository: https://maven.repository.redhat.com/earlyaccess/all/org/codehaus/plexus/plexus-archiver/1.0-alpha-9/plexus-archiver-1.0-alpha-9.jar
+Downloading from jboss-earlyaccess-plugin-repository: https://maven.repository.redhat.com/earlyaccess/all/org/codehaus/plexus/plexus-io/1.0-alpha-1/plexus-io-1.0-alpha-1.jar
+Downloading from jboss-earlyaccess-plugin-repository: https://maven.repository.redhat.com/earlyaccess/all/commons-lang/commons-lang/2.1/commons-lang-2.1.jar
+Downloading from jboss-earlyaccess-plugin-repository: https://maven.repository.redhat.com/earlyaccess/all/org/codehaus/plexus/plexus-utils/1.4.9/plexus-utils-1.4.9.jar
+Downloaded from jboss-earlyaccess-plugin-repository: https://maven.repository.redhat.com/earlyaccess/all/commons-lang/commons-lang/2.1/commons-lang-2.1.jar (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-archiver/2.3/maven-archiver-2.3.jar
+Progress (1): 0.9/18 kBProgress (1): 2.3/18 kBProgress (1): 3.6/18 kBProgress (1): 3.9/18 kBProgress (1): 5.3/18 kBProgress (1): 6.7/18 kBProgress (1): 8.0/18 kBProgress (1): 9.4/18 kBProgress (1): 11/18 kB Progress (1): 12/18 kBProgress (1): 14/18 kBProgress (1): 15/18 kBProgress (1): 16/18 kBProgress (1): 18/18 kBProgress (1): 18 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-archiver/2.3/maven-archiver-2.3.jar (18 kB at 296 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-archiver/1.0-alpha-9/plexus-archiver-1.0-alpha-9.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-io/1.0-alpha-1/plexus-io-1.0-alpha-1.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/1.4.9/plexus-utils-1.4.9.jar
+Progress (1): 0.9/157 kBProgress (1): 2.3/157 kBProgress (1): 3.6/157 kBProgress (1): 5.0/157 kBProgress (1): 6.4/157 kBProgress (1): 7.7/157 kBProgress (1): 9.1/157 kBProgress (1): 10/157 kB Progress (1): 11/157 kBProgress (1): 13/157 kBProgress (1): 14/157 kBProgress (1): 16/157 kBProgress (1): 17/157 kBProgress (1): 18/157 kBProgress (1): 20/157 kBProgress (1): 21/157 kBProgress (1): 22/157 kBProgress (1): 24/157 kBProgress (1): 28/157 kBProgress (1): 32/157 kBProgress (1): 36/157 kBProgress (1): 41/157 kBProgress (1): 45/157 kBProgress (1): 49/157 kBProgress (1): 53/157 kBProgress (1): 58/157 kBProgress (1): 62/157 kBProgress (1): 66/157 kBProgress (1): 70/157 kBProgress (1): 74/157 kBProgress (1): 79/157 kBProgress (1): 83/157 kBProgress (1): 87/157 kBProgress (1): 91/157 kBProgress (1): 96/157 kBProgress (1): 100/157 kBProgress (1): 104/157 kBProgress (1): 108/157 kBProgress (1): 113/157 kBProgress (1): 117/157 kBProgress (1): 121/157 kBProgress (1): 125/157 kBProgress (1): 129/157 kBProgress (1): 134/157 kBProgress (1): 138/157 kBProgress (1): 142/157 kBProgress (1): 142/157 kBProgress (1): 147/157 kBProgress (1): 151/157 kBProgress (1): 155/157 kBProgress (1): 157 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-archiver/1.0-alpha-9/plexus-archiver-1.0-alpha-9.jar (157 kB at 2.8 MB/s)
+Progress (1): 0.9/12 kBProgress (1): 2.3/12 kBProgress (1): 3.6/12 kBProgress (1): 3.9/12 kBProgress (1): 5.3/12 kBProgress (1): 6.7/12 kBProgress (1): 8.1/12 kBProgress (1): 9.4/12 kBProgress (1): 11/12 kB Progress (1): 12/12 kBProgress (1): 12 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-io/1.0-alpha-1/plexus-io-1.0-alpha-1.jar (12 kB at 161 kB/s)
+Progress (1): 0.9/204 kBProgress (1): 2.3/204 kBProgress (1): 3.6/204 kBProgress (1): 3.9/204 kBProgress (1): 5.3/204 kBProgress (1): 6.7/204 kBProgress (1): 8.0/204 kBProgress (1): 9.4/204 kBProgress (1): 11/204 kB Progress (1): 12/204 kBProgress (1): 13/204 kBProgress (1): 15/204 kBProgress (1): 16/204 kBProgress (1): 18/204 kBProgress (1): 19/204 kBProgress (1): 20/204 kBProgress (1): 22/204 kBProgress (1): 23/204 kBProgress (1): 24/204 kBProgress (1): 26/204 kBProgress (1): 27/204 kBProgress (1): 29/204 kBProgress (1): 30/204 kBProgress (1): 31/204 kBProgress (1): 33/204 kBProgress (1): 34/204 kBProgress (1): 35/204 kBProgress (1): 37/204 kBProgress (1): 38/204 kBProgress (1): 40/204 kBProgress (1): 41/204 kBProgress (1): 42/204 kBProgress (1): 44/204 kBProgress (1): 45/204 kBProgress (1): 46/204 kBProgress (1): 48/204 kBProgress (1): 49/204 kBProgress (1): 50/204 kBProgress (1): 52/204 kBProgress (1): 53/204 kBProgress (1): 55/204 kBProgress (1): 59/204 kBProgress (1): 63/204 kBProgress (1): 67/204 kBProgress (1): 71/204 kBProgress (1): 76/204 kBProgress (1): 80/204 kBProgress (1): 84/204 kBProgress (1): 88/204 kBProgress (1): 93/204 kBProgress (1): 97/204 kBProgress (1): 101/204 kBProgress (1): 105/204 kBProgress (1): 110/204 kBProgress (1): 114/204 kBProgress (1): 118/204 kBProgress (1): 122/204 kBProgress (1): 126/204 kBProgress (1): 131/204 kBProgress (1): 135/204 kBProgress (1): 135/204 kBProgress (1): 139/204 kBProgress (1): 143/204 kBProgress (1): 148/204 kBProgress (1): 152/204 kBProgress (1): 156/204 kBProgress (1): 160/204 kBProgress (1): 165/204 kBProgress (1): 169/204 kBProgress (1): 173/204 kBProgress (1): 177/204 kBProgress (1): 182/204 kBProgress (1): 186/204 kBProgress (1): 190/204 kBProgress (1): 194/204 kBProgress (1): 198/204 kBProgress (1): 203/204 kBProgress (1): 204 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/1.4.9/plexus-utils-1.4.9.jar (204 kB at 1.7 MB/s)
+[WARNING] JAR will be empty - no content was marked for inclusion!
+[INFO] Building jar: C:\Users\MURALIS\OneDrive - Muralis\Documentos\goodfriend\goodfriend-keycloak\testsuite\integration\target\keycloak-testsuite-integration-1.5.0.Final.jar
+[INFO] 
+[INFO] --- source:2.3:jar-no-fork (attach-sources) @ keycloak-testsuite-integration ---
+[INFO] No sources in project. Archive not created.
+[INFO] 
+[INFO] --- jar:2.2:test-jar (default) @ keycloak-testsuite-integration ---
+[INFO] Building jar: C:\Users\MURALIS\OneDrive - Muralis\Documentos\goodfriend\goodfriend-keycloak\testsuite\integration\target\keycloak-testsuite-integration-1.5.0.Final-tests.jar
+[INFO] 
+[INFO] --- install:2.5.1:install (default-install) @ keycloak-testsuite-integration ---
+[INFO] Installing C:\Users\MURALIS\OneDrive - Muralis\Documentos\goodfriend\goodfriend-keycloak\testsuite\integration\target\keycloak-testsuite-integration-1.5.0.Final.jar to C:\Users\MURALIS\.m2\repository\org\keycloak\keycloak-testsuite-integration\1.5.0.Final\keycloak-testsuite-integration-1.5.0.Final.jar
+[INFO] Installing C:\Users\MURALIS\OneDrive - Muralis\Documentos\goodfriend\goodfriend-keycloak\testsuite\integration\pom.xml to C:\Users\MURALIS\.m2\repository\org\keycloak\keycloak-testsuite-integration\1.5.0.Final\keycloak-testsuite-integration-1.5.0.Final.pom
+[INFO] Installing C:\Users\MURALIS\OneDrive - Muralis\Documentos\goodfriend\goodfriend-keycloak\testsuite\integration\target\keycloak-testsuite-integration-1.5.0.Final-tests.jar to C:\Users\MURALIS\.m2\repository\org\keycloak\keycloak-testsuite-integration\1.5.0.Final\keycloak-testsuite-integration-1.5.0.Final-tests.jar
+[INFO] 
+[INFO] -----------< org.keycloak:keycloak-testsuite-security-proxy >-----------
+[INFO] Building Keycloak Security Proxy TestSuite 1.5.0.Final            [9/17]
+[INFO]   from C:\Users\MURALIS\OneDrive - Muralis\Documentos\goodfriend\goodfriend-keycloak\testsuite\proxy\pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- enforcer:1.4:enforce (enforce-maven) @ keycloak-testsuite-security-proxy ---
+[INFO] 
+[INFO] --- enforcer:1.4:enforce (enforce-java-version) @ keycloak-testsuite-security-proxy ---
+[INFO] 
+[INFO] --- enforcer:1.4:enforce (enforce-maven-version) @ keycloak-testsuite-security-proxy ---
+[INFO] 
+[INFO] --- buildnumber:1.3:create-timestamp (get-build-timestamp) @ keycloak-testsuite-security-proxy ---
+[INFO] 
+[INFO] --- buildnumber:1.3:create (get-scm-revision) @ keycloak-testsuite-security-proxy ---
+[INFO] 
+[INFO] --- resources:2.6:resources (default-resources) @ keycloak-testsuite-security-proxy ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Users\MURALIS\OneDrive - Muralis\Documentos\goodfriend\goodfriend-keycloak\testsuite\proxy\src\main\resources
+[INFO] 
+[INFO] --- compiler:3.1:compile (default-compile) @ keycloak-testsuite-security-proxy ---
+[WARNING]  Parameter 'compilerArguments' is deprecated: use {@link #compilerArgs} instead.
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- resources:2.6:testResources (default-testResources) @ keycloak-testsuite-security-proxy ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 5 resources
+[INFO] 
+[INFO] --- compiler:3.1:testCompile (default-testCompile) @ keycloak-testsuite-security-proxy ---
+[WARNING]  Parameter 'compilerArguments' is deprecated: use {@link #compilerArgs} instead.
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to C:\Users\MURALIS\OneDrive - Muralis\Documentos\goodfriend\goodfriend-keycloak\testsuite\proxy\target\test-classes
+[WARNING] bootstrap class path not set in conjunction with -source 1.7
+[INFO] 
+[INFO] --- surefire:2.17:test (default-test) @ keycloak-testsuite-security-proxy ---
+[WARNING]  Parameter 'systemProperties' is deprecated: Use systemPropertyVariables instead.
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jar:2.2:jar (default-jar) @ keycloak-testsuite-security-proxy ---
+[WARNING] JAR will be empty - no content was marked for inclusion!
+[INFO] Building jar: C:\Users\MURALIS\OneDrive - Muralis\Documentos\goodfriend\goodfriend-keycloak\testsuite\proxy\target\keycloak-testsuite-security-proxy-1.5.0.Final.jar
+[INFO] 
+[INFO] --- source:2.3:jar-no-fork (attach-sources) @ keycloak-testsuite-security-proxy ---
+[INFO] No sources in project. Archive not created.
+[INFO] 
+[INFO] --- jar:2.2:test-jar (default) @ keycloak-testsuite-security-proxy ---
+[INFO] Building jar: C:\Users\MURALIS\OneDrive - Muralis\Documentos\goodfriend\goodfriend-keycloak\testsuite\proxy\target\keycloak-testsuite-security-proxy-1.5.0.Final-tests.jar
+[INFO] 
+[INFO] --- install:2.5.1:install (default-install) @ keycloak-testsuite-security-proxy ---
+[INFO] Installing C:\Users\MURALIS\OneDrive - Muralis\Documentos\goodfriend\goodfriend-keycloak\testsuite\proxy\target\keycloak-testsuite-security-proxy-1.5.0.Final.jar to C:\Users\MURALIS\.m2\repository\org\keycloak\keycloak-testsuite-security-proxy\1.5.0.Final\keycloak-testsuite-security-proxy-1.5.0.Final.jar
+[INFO] Installing C:\Users\MURALIS\OneDrive - Muralis\Documentos\goodfriend\goodfriend-keycloak\testsuite\proxy\pom.xml to C:\Users\MURALIS\.m2\repository\org\keycloak\keycloak-testsuite-security-proxy\1.5.0.Final\keycloak-testsuite-security-proxy-1.5.0.Final.pom
+[INFO] Installing C:\Users\MURALIS\OneDrive - Muralis\Documentos\goodfriend\goodfriend-keycloak\testsuite\proxy\target\keycloak-testsuite-security-proxy-1.5.0.Final-tests.jar to C:\Users\MURALIS\.m2\repository\org\keycloak\keycloak-testsuite-security-proxy\1.5.0.Final\keycloak-testsuite-security-proxy-1.5.0.Final-tests.jar
+[INFO] 
+[INFO] --------------< org.keycloak:keycloak-testsuite-tomcat6 >---------------
+[INFO] Building Keycloak Tomcat 6 Integration TestSuite 1.5.0.Final     [10/17]
+[INFO]   from C:\Users\MURALIS\OneDrive - Muralis\Documentos\goodfriend\goodfriend-keycloak\testsuite\tomcat6\pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- enforcer:1.4:enforce (enforce-maven) @ keycloak-testsuite-tomcat6 ---
+[INFO] 
+[INFO] --- enforcer:1.4:enforce (enforce-java-version) @ keycloak-testsuite-tomcat6 ---
+[INFO] 
+[INFO] --- enforcer:1.4:enforce (enforce-maven-version) @ keycloak-testsuite-tomcat6 ---
+[INFO] 
+[INFO] --- buildnumber:1.3:create-timestamp (get-build-timestamp) @ keycloak-testsuite-tomcat6 ---
+[INFO] 
+[INFO] --- buildnumber:1.3:create (get-scm-revision) @ keycloak-testsuite-tomcat6 ---
+[INFO] 
+[INFO] --- resources:2.6:resources (default-resources) @ keycloak-testsuite-tomcat6 ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Users\MURALIS\OneDrive - Muralis\Documentos\goodfriend\goodfriend-keycloak\testsuite\tomcat6\src\main\resources
+[INFO] 
+[INFO] --- compiler:3.1:compile (default-compile) @ keycloak-testsuite-tomcat6 ---
+[WARNING]  Parameter 'compilerArguments' is deprecated: use {@link #compilerArgs} instead.
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- resources:2.6:testResources (default-testResources) @ keycloak-testsuite-tomcat6 ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 22 resources
+[INFO] 
+[INFO] --- compiler:3.1:testCompile (default-testCompile) @ keycloak-testsuite-tomcat6 ---
+[WARNING]  Parameter 'compilerArguments' is deprecated: use {@link #compilerArgs} instead.
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 2 source files to C:\Users\MURALIS\OneDrive - Muralis\Documentos\goodfriend\goodfriend-keycloak\testsuite\tomcat6\target\test-classes
+[WARNING] bootstrap class path not set in conjunction with -source 1.7
+[INFO] 
+[INFO] --- surefire:2.17:test (default-test) @ keycloak-testsuite-tomcat6 ---
+[WARNING]  Parameter 'systemProperties' is deprecated: Use systemPropertyVariables instead.
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jar:2.2:jar (default-jar) @ keycloak-testsuite-tomcat6 ---
+[WARNING] JAR will be empty - no content was marked for inclusion!
+[INFO] Building jar: C:\Users\MURALIS\OneDrive - Muralis\Documentos\goodfriend\goodfriend-keycloak\testsuite\tomcat6\target\keycloak-testsuite-tomcat6-1.5.0.Final.jar
+[INFO] 
+[INFO] --- source:2.3:jar-no-fork (attach-sources) @ keycloak-testsuite-tomcat6 ---
+[INFO] No sources in project. Archive not created.
+[INFO] 
+[INFO] --- jar:2.2:test-jar (default) @ keycloak-testsuite-tomcat6 ---
+[INFO] Building jar: C:\Users\MURALIS\OneDrive - Muralis\Documentos\goodfriend\goodfriend-keycloak\testsuite\tomcat6\target\keycloak-testsuite-tomcat6-1.5.0.Final-tests.jar
+[INFO] 
+[INFO] --- install:2.5.1:install (default-install) @ keycloak-testsuite-tomcat6 ---
+[INFO] Installing C:\Users\MURALIS\OneDrive - Muralis\Documentos\goodfriend\goodfriend-keycloak\testsuite\tomcat6\target\keycloak-testsuite-tomcat6-1.5.0.Final.jar to C:\Users\MURALIS\.m2\repository\org\keycloak\keycloak-testsuite-tomcat6\1.5.0.Final\keycloak-testsuite-tomcat6-1.5.0.Final.jar
+[INFO] Installing C:\Users\MURALIS\OneDrive - Muralis\Documentos\goodfriend\goodfriend-keycloak\testsuite\tomcat6\pom.xml to C:\Users\MURALIS\.m2\repository\org\keycloak\keycloak-testsuite-tomcat6\1.5.0.Final\keycloak-testsuite-tomcat6-1.5.0.Final.pom
+[INFO] Installing C:\Users\MURALIS\OneDrive - Muralis\Documentos\goodfriend\goodfriend-keycloak\testsuite\tomcat6\target\keycloak-testsuite-tomcat6-1.5.0.Final-tests.jar to C:\Users\MURALIS\.m2\repository\org\keycloak\keycloak-testsuite-tomcat6\1.5.0.Final\keycloak-testsuite-tomcat6-1.5.0.Final-tests.jar
+[INFO] 
+[INFO] --------------< org.keycloak:keycloak-testsuite-tomcat7 >---------------
+[INFO] Building Keycloak Tomcat 7 Integration TestSuite 1.5.0.Final     [11/17]
+[INFO]   from C:\Users\MURALIS\OneDrive - Muralis\Documentos\goodfriend\goodfriend-keycloak\testsuite\tomcat7\pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- enforcer:1.4:enforce (enforce-maven) @ keycloak-testsuite-tomcat7 ---
+[INFO] 
+[INFO] --- enforcer:1.4:enforce (enforce-java-version) @ keycloak-testsuite-tomcat7 ---
+[INFO] 
+[INFO] --- enforcer:1.4:enforce (enforce-maven-version) @ keycloak-testsuite-tomcat7 ---
+[INFO] 
+[INFO] --- buildnumber:1.3:create-timestamp (get-build-timestamp) @ keycloak-testsuite-tomcat7 ---
+[INFO] 
+[INFO] --- buildnumber:1.3:create (get-scm-revision) @ keycloak-testsuite-tomcat7 ---
+[INFO] 
+[INFO] --- resources:2.6:resources (default-resources) @ keycloak-testsuite-tomcat7 ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Users\MURALIS\OneDrive - Muralis\Documentos\goodfriend\goodfriend-keycloak\testsuite\tomcat7\src\main\resources
+[INFO] 
+[INFO] --- compiler:3.1:compile (default-compile) @ keycloak-testsuite-tomcat7 ---
+[WARNING]  Parameter 'compilerArguments' is deprecated: use {@link #compilerArgs} instead.
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- resources:2.6:testResources (default-testResources) @ keycloak-testsuite-tomcat7 ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 22 resources
+[INFO] 
+[INFO] --- compiler:3.1:testCompile (default-testCompile) @ keycloak-testsuite-tomcat7 ---
+[WARNING]  Parameter 'compilerArguments' is deprecated: use {@link #compilerArgs} instead.
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to C:\Users\MURALIS\OneDrive - Muralis\Documentos\goodfriend\goodfriend-keycloak\testsuite\tomcat7\target\test-classes
+[WARNING] bootstrap class path not set in conjunction with -source 1.7
+[INFO] 
+[INFO] --- surefire:2.17:test (default-test) @ keycloak-testsuite-tomcat7 ---
+[WARNING]  Parameter 'systemProperties' is deprecated: Use systemPropertyVariables instead.
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jar:2.2:jar (default-jar) @ keycloak-testsuite-tomcat7 ---
+[WARNING] JAR will be empty - no content was marked for inclusion!
+[INFO] Building jar: C:\Users\MURALIS\OneDrive - Muralis\Documentos\goodfriend\goodfriend-keycloak\testsuite\tomcat7\target\keycloak-testsuite-tomcat7-1.5.0.Final.jar
+[INFO] 
+[INFO] --- source:2.3:jar-no-fork (attach-sources) @ keycloak-testsuite-tomcat7 ---
+[INFO] No sources in project. Archive not created.
+[INFO] 
+[INFO] --- jar:2.2:test-jar (default) @ keycloak-testsuite-tomcat7 ---
+[INFO] Building jar: C:\Users\MURALIS\OneDrive - Muralis\Documentos\goodfriend\goodfriend-keycloak\testsuite\tomcat7\target\keycloak-testsuite-tomcat7-1.5.0.Final-tests.jar
+[INFO] 
+[INFO] --- install:2.5.1:install (default-install) @ keycloak-testsuite-tomcat7 ---
+[INFO] Installing C:\Users\MURALIS\OneDrive - Muralis\Documentos\goodfriend\goodfriend-keycloak\testsuite\tomcat7\target\keycloak-testsuite-tomcat7-1.5.0.Final.jar to C:\Users\MURALIS\.m2\repository\org\keycloak\keycloak-testsuite-tomcat7\1.5.0.Final\keycloak-testsuite-tomcat7-1.5.0.Final.jar
+[INFO] Installing C:\Users\MURALIS\OneDrive - Muralis\Documentos\goodfriend\goodfriend-keycloak\testsuite\tomcat7\pom.xml to C:\Users\MURALIS\.m2\repository\org\keycloak\keycloak-testsuite-tomcat7\1.5.0.Final\keycloak-testsuite-tomcat7-1.5.0.Final.pom
+[INFO] Installing C:\Users\MURALIS\OneDrive - Muralis\Documentos\goodfriend\goodfriend-keycloak\testsuite\tomcat7\target\keycloak-testsuite-tomcat7-1.5.0.Final-tests.jar to C:\Users\MURALIS\.m2\repository\org\keycloak\keycloak-testsuite-tomcat7\1.5.0.Final\keycloak-testsuite-tomcat7-1.5.0.Final-tests.jar
+[INFO] 
+[INFO] --------------< org.keycloak:keycloak-testsuite-tomcat8 >---------------
+[INFO] Building Keycloak Tomcat 8 Integration TestSuite 1.5.0.Final     [12/17]
+[INFO]   from C:\Users\MURALIS\OneDrive - Muralis\Documentos\goodfriend\goodfriend-keycloak\testsuite\tomcat8\pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- enforcer:1.4:enforce (enforce-maven) @ keycloak-testsuite-tomcat8 ---
+[INFO] 
+[INFO] --- enforcer:1.4:enforce (enforce-java-version) @ keycloak-testsuite-tomcat8 ---
+[INFO] 
+[INFO] --- enforcer:1.4:enforce (enforce-maven-version) @ keycloak-testsuite-tomcat8 ---
+[INFO] 
+[INFO] --- buildnumber:1.3:create-timestamp (get-build-timestamp) @ keycloak-testsuite-tomcat8 ---
+[INFO] 
+[INFO] --- buildnumber:1.3:create (get-scm-revision) @ keycloak-testsuite-tomcat8 ---
+[INFO] 
+[INFO] --- resources:2.6:resources (default-resources) @ keycloak-testsuite-tomcat8 ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Users\MURALIS\OneDrive - Muralis\Documentos\goodfriend\goodfriend-keycloak\testsuite\tomcat8\src\main\resources
+[INFO] 
+[INFO] --- compiler:3.1:compile (default-compile) @ keycloak-testsuite-tomcat8 ---
+[WARNING]  Parameter 'compilerArguments' is deprecated: use {@link #compilerArgs} instead.
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- resources:2.6:testResources (default-testResources) @ keycloak-testsuite-tomcat8 ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 26 resources
+[INFO] 
+[INFO] --- compiler:3.1:testCompile (default-testCompile) @ keycloak-testsuite-tomcat8 ---
+[WARNING]  Parameter 'compilerArguments' is deprecated: use {@link #compilerArgs} instead.
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to C:\Users\MURALIS\OneDrive - Muralis\Documentos\goodfriend\goodfriend-keycloak\testsuite\tomcat8\target\test-classes
+[WARNING] bootstrap class path not set in conjunction with -source 1.7
+[INFO] 
+[INFO] --- surefire:2.17:test (default-test) @ keycloak-testsuite-tomcat8 ---
+[WARNING]  Parameter 'systemProperties' is deprecated: Use systemPropertyVariables instead.
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jar:2.2:jar (default-jar) @ keycloak-testsuite-tomcat8 ---
+[WARNING] JAR will be empty - no content was marked for inclusion!
+[INFO] Building jar: C:\Users\MURALIS\OneDrive - Muralis\Documentos\goodfriend\goodfriend-keycloak\testsuite\tomcat8\target\keycloak-testsuite-tomcat8-1.5.0.Final.jar
+[INFO] 
+[INFO] --- source:2.3:jar-no-fork (attach-sources) @ keycloak-testsuite-tomcat8 ---
+[INFO] No sources in project. Archive not created.
+[INFO] 
+[INFO] --- jar:2.2:test-jar (default) @ keycloak-testsuite-tomcat8 ---
+[INFO] Building jar: C:\Users\MURALIS\OneDrive - Muralis\Documentos\goodfriend\goodfriend-keycloak\testsuite\tomcat8\target\keycloak-testsuite-tomcat8-1.5.0.Final-tests.jar
+[INFO] 
+[INFO] --- install:2.5.1:install (default-install) @ keycloak-testsuite-tomcat8 ---
+[INFO] Installing C:\Users\MURALIS\OneDrive - Muralis\Documentos\goodfriend\goodfriend-keycloak\testsuite\tomcat8\target\keycloak-testsuite-tomcat8-1.5.0.Final.jar to C:\Users\MURALIS\.m2\repository\org\keycloak\keycloak-testsuite-tomcat8\1.5.0.Final\keycloak-testsuite-tomcat8-1.5.0.Final.jar
+[INFO] Installing C:\Users\MURALIS\OneDrive - Muralis\Documentos\goodfriend\goodfriend-keycloak\testsuite\tomcat8\pom.xml to C:\Users\MURALIS\.m2\repository\org\keycloak\keycloak-testsuite-tomcat8\1.5.0.Final\keycloak-testsuite-tomcat8-1.5.0.Final.pom
+[INFO] Installing C:\Users\MURALIS\OneDrive - Muralis\Documentos\goodfriend\goodfriend-keycloak\testsuite\tomcat8\target\keycloak-testsuite-tomcat8-1.5.0.Final-tests.jar to C:\Users\MURALIS\.m2\repository\org\keycloak\keycloak-testsuite-tomcat8\1.5.0.Final\keycloak-testsuite-tomcat8-1.5.0.Final-tests.jar
+[INFO] 
+[INFO] --------------< org.keycloak:keycloak-testsuite-jetty81 >---------------
+[INFO] Building Keycloak Jetty 8.1.x Integration TestSuite 1.5.0.Final  [13/17]
+[INFO]   from C:\Users\MURALIS\OneDrive - Muralis\Documentos\goodfriend\goodfriend-keycloak\testsuite\jetty\jetty81\pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] Artifact org.slf4j:slf4j-api:pom:1.6.1 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [jboss-earlyaccess-repository (https://maven.repository.redhat.com/earlyaccess/all/, default, releases), jboss (https://repository.jboss.org/nexus/content/groups/public/, default, releases+snapshots), central (https://repo.maven.apache.org/maven2, default, releases)]
+[INFO] Artifact org.slf4j:slf4j-api:pom:1.6.1 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [jboss-earlyaccess-repository (https://maven.repository.redhat.com/earlyaccess/all/, default, releases), jboss (https://repository.jboss.org/nexus/content/groups/public/, default, releases+snapshots), central (https://repo.maven.apache.org/maven2, default, releases)]
+Downloading from jboss-earlyaccess-repository: https://maven.repository.redhat.com/earlyaccess/all/org/slf4j/slf4j-api/1.6.1/slf4j-api-1.6.1.pom
+Downloaded from jboss-earlyaccess-repository: https://maven.repository.redhat.com/earlyaccess/all/org/slf4j/slf4j-api/1.6.1/slf4j-api-1.6.1.pom (0 B at 0 B/s)
+[INFO] Artifact org.slf4j:slf4j-parent:pom:1.6.1 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [jboss-earlyaccess-repository (https://maven.repository.redhat.com/earlyaccess/all/, default, releases), jboss (https://repository.jboss.org/nexus/content/groups/public/, default, releases+snapshots), central (https://repo.maven.apache.org/maven2, default, releases)]
+[INFO] Artifact org.slf4j:slf4j-parent:pom:1.6.1 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [jboss-earlyaccess-repository (https://maven.repository.redhat.com/earlyaccess/all/, default, releases), jboss (https://repository.jboss.org/nexus/content/groups/public/, default, releases+snapshots), central (https://repo.maven.apache.org/maven2, default, releases)]
+Downloading from jboss-earlyaccess-repository: https://maven.repository.redhat.com/earlyaccess/all/org/slf4j/slf4j-parent/1.6.1/slf4j-parent-1.6.1.pom
+Downloaded from jboss-earlyaccess-repository: https://maven.repository.redhat.com/earlyaccess/all/org/slf4j/slf4j-parent/1.6.1/slf4j-parent-1.6.1.pom (0 B at 0 B/s)
+[INFO] 
+[INFO] --- enforcer:1.4:enforce (enforce-maven) @ keycloak-testsuite-jetty81 ---
+[INFO] 
+[INFO] --- enforcer:1.4:enforce (enforce-java-version) @ keycloak-testsuite-jetty81 ---
+[INFO] 
+[INFO] --- enforcer:1.4:enforce (enforce-maven-version) @ keycloak-testsuite-jetty81 ---
+[INFO] 
+[INFO] --- buildnumber:1.3:create-timestamp (get-build-timestamp) @ keycloak-testsuite-jetty81 ---
+[INFO] 
+[INFO] --- buildnumber:1.3:create (get-scm-revision) @ keycloak-testsuite-jetty81 ---
+[INFO] 
+[INFO] --- resources:2.6:resources (default-resources) @ keycloak-testsuite-jetty81 ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Users\MURALIS\OneDrive - Muralis\Documentos\goodfriend\goodfriend-keycloak\testsuite\jetty\jetty81\src\main\resources
+[INFO] 
+[INFO] --- compiler:3.1:compile (default-compile) @ keycloak-testsuite-jetty81 ---
+[WARNING]  Parameter 'compilerArguments' is deprecated: use {@link #compilerArgs} instead.
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- resources:2.6:testResources (default-testResources) @ keycloak-testsuite-jetty81 ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 24 resources
+[INFO] 
+[INFO] --- compiler:3.1:testCompile (default-testCompile) @ keycloak-testsuite-jetty81 ---
+[WARNING]  Parameter 'compilerArguments' is deprecated: use {@link #compilerArgs} instead.
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to C:\Users\MURALIS\OneDrive - Muralis\Documentos\goodfriend\goodfriend-keycloak\testsuite\jetty\jetty81\target\test-classes
+[WARNING] bootstrap class path not set in conjunction with -source 1.7
+[INFO] 
+[INFO] --- surefire:2.17:test (default-test) @ keycloak-testsuite-jetty81 ---
+[WARNING]  Parameter 'systemProperties' is deprecated: Use systemPropertyVariables instead.
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jar:2.2:jar (default-jar) @ keycloak-testsuite-jetty81 ---
+[WARNING] JAR will be empty - no content was marked for inclusion!
+[INFO] Building jar: C:\Users\MURALIS\OneDrive - Muralis\Documentos\goodfriend\goodfriend-keycloak\testsuite\jetty\jetty81\target\keycloak-testsuite-jetty81-1.5.0.Final.jar
+[INFO] 
+[INFO] --- source:2.3:jar-no-fork (attach-sources) @ keycloak-testsuite-jetty81 ---
+[INFO] No sources in project. Archive not created.
+[INFO] 
+[INFO] --- jar:2.2:test-jar (default) @ keycloak-testsuite-jetty81 ---
+[INFO] Building jar: C:\Users\MURALIS\OneDrive - Muralis\Documentos\goodfriend\goodfriend-keycloak\testsuite\jetty\jetty81\target\keycloak-testsuite-jetty81-1.5.0.Final-tests.jar
+[INFO] 
+[INFO] --- install:2.5.1:install (default-install) @ keycloak-testsuite-jetty81 ---
+[INFO] Installing C:\Users\MURALIS\OneDrive - Muralis\Documentos\goodfriend\goodfriend-keycloak\testsuite\jetty\jetty81\target\keycloak-testsuite-jetty81-1.5.0.Final.jar to C:\Users\MURALIS\.m2\repository\org\keycloak\keycloak-testsuite-jetty81\1.5.0.Final\keycloak-testsuite-jetty81-1.5.0.Final.jar
+[INFO] Installing C:\Users\MURALIS\OneDrive - Muralis\Documentos\goodfriend\goodfriend-keycloak\testsuite\jetty\jetty81\pom.xml to C:\Users\MURALIS\.m2\repository\org\keycloak\keycloak-testsuite-jetty81\1.5.0.Final\keycloak-testsuite-jetty81-1.5.0.Final.pom
+[INFO] Installing C:\Users\MURALIS\OneDrive - Muralis\Documentos\goodfriend\goodfriend-keycloak\testsuite\jetty\jetty81\target\keycloak-testsuite-jetty81-1.5.0.Final-tests.jar to C:\Users\MURALIS\.m2\repository\org\keycloak\keycloak-testsuite-jetty81\1.5.0.Final\keycloak-testsuite-jetty81-1.5.0.Final-tests.jar
+[INFO] 
+[INFO] --------------< org.keycloak:keycloak-testsuite-jetty92 >---------------
+[INFO] Building Keycloak Jetty 9.2.x Integration TestSuite 1.5.0.Final  [14/17]
+[INFO]   from C:\Users\MURALIS\OneDrive - Muralis\Documentos\goodfriend\goodfriend-keycloak\testsuite\jetty\jetty92\pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- enforcer:1.4:enforce (enforce-maven) @ keycloak-testsuite-jetty92 ---
+[INFO] 
+[INFO] --- enforcer:1.4:enforce (enforce-java-version) @ keycloak-testsuite-jetty92 ---
+[INFO] 
+[INFO] --- enforcer:1.4:enforce (enforce-maven-version) @ keycloak-testsuite-jetty92 ---
+[INFO] 
+[INFO] --- buildnumber:1.3:create-timestamp (get-build-timestamp) @ keycloak-testsuite-jetty92 ---
+[INFO] 
+[INFO] --- buildnumber:1.3:create (get-scm-revision) @ keycloak-testsuite-jetty92 ---
+[INFO] 
+[INFO] --- resources:2.6:resources (default-resources) @ keycloak-testsuite-jetty92 ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Users\MURALIS\OneDrive - Muralis\Documentos\goodfriend\goodfriend-keycloak\testsuite\jetty\jetty92\src\main\resources
+[INFO] 
+[INFO] --- compiler:3.1:compile (default-compile) @ keycloak-testsuite-jetty92 ---
+[WARNING]  Parameter 'compilerArguments' is deprecated: use {@link #compilerArgs} instead.
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- resources:2.6:testResources (default-testResources) @ keycloak-testsuite-jetty92 ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 22 resources
+[INFO] 
+[INFO] --- compiler:3.1:testCompile (default-testCompile) @ keycloak-testsuite-jetty92 ---
+[WARNING]  Parameter 'compilerArguments' is deprecated: use {@link #compilerArgs} instead.
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to C:\Users\MURALIS\OneDrive - Muralis\Documentos\goodfriend\goodfriend-keycloak\testsuite\jetty\jetty92\target\test-classes
+[WARNING] bootstrap class path not set in conjunction with -source 1.7
+[INFO] 
+[INFO] --- surefire:2.17:test (default-test) @ keycloak-testsuite-jetty92 ---
+[WARNING]  Parameter 'systemProperties' is deprecated: Use systemPropertyVariables instead.
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jar:2.2:jar (default-jar) @ keycloak-testsuite-jetty92 ---
+[WARNING] JAR will be empty - no content was marked for inclusion!
+[INFO] Building jar: C:\Users\MURALIS\OneDrive - Muralis\Documentos\goodfriend\goodfriend-keycloak\testsuite\jetty\jetty92\target\keycloak-testsuite-jetty92-1.5.0.Final.jar
+[INFO] 
+[INFO] --- source:2.3:jar-no-fork (attach-sources) @ keycloak-testsuite-jetty92 ---
+[INFO] No sources in project. Archive not created.
+[INFO] 
+[INFO] --- jar:2.2:test-jar (default) @ keycloak-testsuite-jetty92 ---
+[INFO] Building jar: C:\Users\MURALIS\OneDrive - Muralis\Documentos\goodfriend\goodfriend-keycloak\testsuite\jetty\jetty92\target\keycloak-testsuite-jetty92-1.5.0.Final-tests.jar
+[INFO] 
+[INFO] --- install:2.5.1:install (default-install) @ keycloak-testsuite-jetty92 ---
+[INFO] Installing C:\Users\MURALIS\OneDrive - Muralis\Documentos\goodfriend\goodfriend-keycloak\testsuite\jetty\jetty92\target\keycloak-testsuite-jetty92-1.5.0.Final.jar to C:\Users\MURALIS\.m2\repository\org\keycloak\keycloak-testsuite-jetty92\1.5.0.Final\keycloak-testsuite-jetty92-1.5.0.Final.jar
+[INFO] Installing C:\Users\MURALIS\OneDrive - Muralis\Documentos\goodfriend\goodfriend-keycloak\testsuite\jetty\jetty92\pom.xml to C:\Users\MURALIS\.m2\repository\org\keycloak\keycloak-testsuite-jetty92\1.5.0.Final\keycloak-testsuite-jetty92-1.5.0.Final.pom
+[INFO] Installing C:\Users\MURALIS\OneDrive - Muralis\Documentos\goodfriend\goodfriend-keycloak\testsuite\jetty\jetty92\target\keycloak-testsuite-jetty92-1.5.0.Final-tests.jar to C:\Users\MURALIS\.m2\repository\org\keycloak\keycloak-testsuite-jetty92\1.5.0.Final\keycloak-testsuite-jetty92-1.5.0.Final-tests.jar
+[INFO] 
+[INFO] --------------< org.keycloak:keycloak-testsuite-jetty91 >---------------
+[INFO] Building Keycloak Jetty 9.1.x Integration TestSuite 1.5.0.Final  [15/17]
+[INFO]   from C:\Users\MURALIS\OneDrive - Muralis\Documentos\goodfriend\goodfriend-keycloak\testsuite\jetty\jetty91\pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- enforcer:1.4:enforce (enforce-maven) @ keycloak-testsuite-jetty91 ---
+[INFO] 
+[INFO] --- enforcer:1.4:enforce (enforce-java-version) @ keycloak-testsuite-jetty91 ---
+[INFO] 
+[INFO] --- enforcer:1.4:enforce (enforce-maven-version) @ keycloak-testsuite-jetty91 ---
+[INFO] 
+[INFO] --- buildnumber:1.3:create-timestamp (get-build-timestamp) @ keycloak-testsuite-jetty91 ---
+[INFO] 
+[INFO] --- buildnumber:1.3:create (get-scm-revision) @ keycloak-testsuite-jetty91 ---
+[INFO] 
+[INFO] --- resources:2.6:resources (default-resources) @ keycloak-testsuite-jetty91 ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Users\MURALIS\OneDrive - Muralis\Documentos\goodfriend\goodfriend-keycloak\testsuite\jetty\jetty91\src\main\resources
+[INFO] 
+[INFO] --- compiler:3.1:compile (default-compile) @ keycloak-testsuite-jetty91 ---
+[WARNING]  Parameter 'compilerArguments' is deprecated: use {@link #compilerArgs} instead.
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- resources:2.6:testResources (default-testResources) @ keycloak-testsuite-jetty91 ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 24 resources
+[INFO] 
+[INFO] --- compiler:3.1:testCompile (default-testCompile) @ keycloak-testsuite-jetty91 ---
+[WARNING]  Parameter 'compilerArguments' is deprecated: use {@link #compilerArgs} instead.
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to C:\Users\MURALIS\OneDrive - Muralis\Documentos\goodfriend\goodfriend-keycloak\testsuite\jetty\jetty91\target\test-classes
+[WARNING] bootstrap class path not set in conjunction with -source 1.7
+[INFO] 
+[INFO] --- surefire:2.17:test (default-test) @ keycloak-testsuite-jetty91 ---
+[WARNING]  Parameter 'systemProperties' is deprecated: Use systemPropertyVariables instead.
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jar:2.2:jar (default-jar) @ keycloak-testsuite-jetty91 ---
+[WARNING] JAR will be empty - no content was marked for inclusion!
+[INFO] Building jar: C:\Users\MURALIS\OneDrive - Muralis\Documentos\goodfriend\goodfriend-keycloak\testsuite\jetty\jetty91\target\keycloak-testsuite-jetty91-1.5.0.Final.jar
+[INFO] 
+[INFO] --- source:2.3:jar-no-fork (attach-sources) @ keycloak-testsuite-jetty91 ---
+[INFO] No sources in project. Archive not created.
+[INFO] 
+[INFO] --- jar:2.2:test-jar (default) @ keycloak-testsuite-jetty91 ---
+[INFO] Building jar: C:\Users\MURALIS\OneDrive - Muralis\Documentos\goodfriend\goodfriend-keycloak\testsuite\jetty\jetty91\target\keycloak-testsuite-jetty91-1.5.0.Final-tests.jar
+[INFO] 
+[INFO] --- install:2.5.1:install (default-install) @ keycloak-testsuite-jetty91 ---
+[INFO] Installing C:\Users\MURALIS\OneDrive - Muralis\Documentos\goodfriend\goodfriend-keycloak\testsuite\jetty\jetty91\target\keycloak-testsuite-jetty91-1.5.0.Final.jar to C:\Users\MURALIS\.m2\repository\org\keycloak\keycloak-testsuite-jetty91\1.5.0.Final\keycloak-testsuite-jetty91-1.5.0.Final.jar
+[INFO] Installing C:\Users\MURALIS\OneDrive - Muralis\Documentos\goodfriend\goodfriend-keycloak\testsuite\jetty\jetty91\pom.xml to C:\Users\MURALIS\.m2\repository\org\keycloak\keycloak-testsuite-jetty91\1.5.0.Final\keycloak-testsuite-jetty91-1.5.0.Final.pom
+[INFO] Installing C:\Users\MURALIS\OneDrive - Muralis\Documentos\goodfriend\goodfriend-keycloak\testsuite\jetty\jetty91\target\keycloak-testsuite-jetty91-1.5.0.Final-tests.jar to C:\Users\MURALIS\.m2\repository\org\keycloak\keycloak-testsuite-jetty91\1.5.0.Final\keycloak-testsuite-jetty91-1.5.0.Final-tests.jar
+[INFO] 
+[INFO] ------------< org.keycloak:keycloak-testsuite-performance >-------------
+[INFO] Building Keycloak Performance TestSuite 1.5.0.Final              [16/17]
+[INFO]   from C:\Users\MURALIS\OneDrive - Muralis\Documentos\goodfriend\goodfriend-keycloak\testsuite\performance\pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- enforcer:1.4:enforce (enforce-maven) @ keycloak-testsuite-performance ---
+[INFO] 
+[INFO] --- enforcer:1.4:enforce (enforce-java-version) @ keycloak-testsuite-performance ---
+[INFO] 
+[INFO] --- enforcer:1.4:enforce (enforce-maven-version) @ keycloak-testsuite-performance ---
+[INFO] 
+[INFO] --- buildnumber:1.3:create-timestamp (get-build-timestamp) @ keycloak-testsuite-performance ---
+[INFO] 
+[INFO] --- buildnumber:1.3:create (get-scm-revision) @ keycloak-testsuite-performance ---
+[INFO] 
+[INFO] --- resources:2.6:resources (default-resources) @ keycloak-testsuite-performance ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Users\MURALIS\OneDrive - Muralis\Documentos\goodfriend\goodfriend-keycloak\testsuite\performance\src\main\resources
+[INFO] 
+[INFO] --- compiler:3.1:compile (default-compile) @ keycloak-testsuite-performance ---
+[WARNING]  Parameter 'compilerArguments' is deprecated: use {@link #compilerArgs} instead.
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- resources:2.6:testResources (default-testResources) @ keycloak-testsuite-performance ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Users\MURALIS\OneDrive - Muralis\Documentos\goodfriend\goodfriend-keycloak\testsuite\performance\src\test\resources
+[INFO] 
+[INFO] --- compiler:3.1:testCompile (default-testCompile) @ keycloak-testsuite-performance ---
+[WARNING]  Parameter 'compilerArguments' is deprecated: use {@link #compilerArgs} instead.
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 7 source files to C:\Users\MURALIS\OneDrive - Muralis\Documentos\goodfriend\goodfriend-keycloak\testsuite\performance\target\test-classes
+[WARNING] bootstrap class path not set in conjunction with -source 1.7
+[WARNING] /C:/Users/MURALIS/OneDrive - Muralis/Documentos/goodfriend/goodfriend-keycloak/testsuite/performance/src/test/java/org/keycloak/testsuite/performance/BaseJMeterPerformanceTest.java: C:\Users\MURALIS\OneDrive - Muralis\Documentos\goodfriend\goodfriend-keycloak\testsuite\performance\src\test\java\org\keycloak\testsuite\performance\BaseJMeterPerformanceTest.java uses unchecked or unsafe operations.
+[WARNING] /C:/Users/MURALIS/OneDrive - Muralis/Documentos/goodfriend/goodfriend-keycloak/testsuite/performance/src/test/java/org/keycloak/testsuite/performance/BaseJMeterPerformanceTest.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- surefire:2.17:test (default-test) @ keycloak-testsuite-performance ---
+[WARNING]  Parameter 'systemProperties' is deprecated: Use systemPropertyVariables instead.
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jar:2.5:jar (default-jar) @ keycloak-testsuite-performance ---
+[WARNING] JAR will be empty - no content was marked for inclusion!
+[INFO] Building jar: C:\Users\MURALIS\OneDrive - Muralis\Documentos\goodfriend\goodfriend-keycloak\testsuite\performance\target\keycloak-testsuite-performance-1.5.0.Final.jar
+[INFO] 
+[INFO] --- source:2.3:jar-no-fork (attach-sources) @ keycloak-testsuite-performance ---
+[INFO] No sources in project. Archive not created.
+[INFO] 
+[INFO] --- jar:2.5:test-jar (default) @ keycloak-testsuite-performance ---
+[INFO] Building jar: C:\Users\MURALIS\OneDrive - Muralis\Documentos\goodfriend\goodfriend-keycloak\testsuite\performance\target\keycloak-testsuite-performance-1.5.0.Final-tests.jar
+[INFO] 
+[INFO] --- install:2.5.1:install (default-install) @ keycloak-testsuite-performance ---
+[INFO] Installing C:\Users\MURALIS\OneDrive - Muralis\Documentos\goodfriend\goodfriend-keycloak\testsuite\performance\target\keycloak-testsuite-performance-1.5.0.Final.jar to C:\Users\MURALIS\.m2\repository\org\keycloak\keycloak-testsuite-performance\1.5.0.Final\keycloak-testsuite-performance-1.5.0.Final.jar
+[INFO] Installing C:\Users\MURALIS\OneDrive - Muralis\Documentos\goodfriend\goodfriend-keycloak\testsuite\performance\pom.xml to C:\Users\MURALIS\.m2\repository\org\keycloak\keycloak-testsuite-performance\1.5.0.Final\keycloak-testsuite-performance-1.5.0.Final.pom
+[INFO] Installing C:\Users\MURALIS\OneDrive - Muralis\Documentos\goodfriend\goodfriend-keycloak\testsuite\performance\target\keycloak-testsuite-performance-1.5.0.Final-tests.jar to C:\Users\MURALIS\.m2\repository\org\keycloak\keycloak-testsuite-performance\1.5.0.Final\keycloak-testsuite-performance-1.5.0.Final-tests.jar
+[INFO] 
+[INFO] -----------------< org.keycloak:keycloak-util-parent >------------------
+[INFO] Building Keycloak Util Parent 1.5.0.Final                        [17/17]
+[INFO]   from C:\Users\MURALIS\OneDrive - Muralis\Documentos\goodfriend\goodfriend-keycloak\util\pom.xml
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --- enforcer:1.4:enforce (enforce-maven) @ keycloak-util-parent ---
+[INFO] 
+[INFO] --- enforcer:1.4:enforce (enforce-java-version) @ keycloak-util-parent ---
+[INFO] 
+[INFO] --- enforcer:1.4:enforce (enforce-maven-version) @ keycloak-util-parent ---
+[INFO] 
+[INFO] --- buildnumber:1.3:create-timestamp (get-build-timestamp) @ keycloak-util-parent ---
+[INFO] 
+[INFO] --- buildnumber:1.3:create (get-scm-revision) @ keycloak-util-parent ---
+[INFO] 
+[INFO] --- source:2.3:jar-no-fork (attach-sources) @ keycloak-util-parent ---
+[INFO] 
+[INFO] --- install:2.5.1:install (default-install) @ keycloak-util-parent ---
+[INFO] Installing C:\Users\MURALIS\OneDrive - Muralis\Documentos\goodfriend\goodfriend-keycloak\util\pom.xml to C:\Users\MURALIS\.m2\repository\org\keycloak\keycloak-util-parent\1.5.0.Final\keycloak-util-parent-1.5.0.Final.pom
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] PicketLink Quickstart: picketlink-federation-saml-sp-post-with-signature 2.7.0.Beta2 SUCCESS [  0.759 s]
+[INFO] PicketLink Quickstart: picketlink-federation-saml-sp-with-encryption 2.7.0.Beta2 SUCCESS [  0.082 s]
+[INFO] PicketLink Quickstart: picketlink-federation-saml-sp-redirect-basic 2.7.0.Beta2 SUCCESS [  0.078 s]
+[INFO] PicketLink Quickstart: picketlink-federation-saml-sp-redirect-with-signature 2.7.0.Beta2 SUCCESS [  0.086 s]
+[INFO] Provider Examples 1.5.0.Final ...................... SUCCESS [  0.758 s]
+[INFO] LDAP Demo Application 1.5.0.Final .................. SUCCESS [  0.607 s]
+[INFO] Keycloak TestSuite 1.5.0.Final ..................... SUCCESS [  0.013 s]
+[INFO] Keycloak Integration TestSuite 1.5.0.Final ......... SUCCESS [ 20.327 s]
+[INFO] Keycloak Security Proxy TestSuite 1.5.0.Final ...... SUCCESS [  1.098 s]
+[INFO] Keycloak Tomcat 6 Integration TestSuite 1.5.0.Final  SUCCESS [  1.068 s]
+[INFO] Keycloak Tomcat 7 Integration TestSuite 1.5.0.Final  SUCCESS [  1.097 s]
+[INFO] Keycloak Tomcat 8 Integration TestSuite 1.5.0.Final  SUCCESS [  0.934 s]
+[INFO] Keycloak Jetty 8.1.x Integration TestSuite 1.5.0.Final SUCCESS [  1.139 s]
+[INFO] Keycloak Jetty 9.2.x Integration TestSuite 1.5.0.Final SUCCESS [  0.910 s]
+[INFO] Keycloak Jetty 9.1.x Integration TestSuite 1.5.0.Final SUCCESS [  0.876 s]
+[INFO] Keycloak Performance TestSuite 1.5.0.Final ......... SUCCESS [  0.610 s]
+[INFO] Keycloak Util Parent 1.5.0.Final ................... SUCCESS [  0.016 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  31.658 s
+[INFO] Finished at: 2025-12-11T13:56:23-03:00
+[INFO] ------------------------------------------------------------------------

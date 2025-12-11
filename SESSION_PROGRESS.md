@@ -1,23 +1,22 @@
 # Session Progress Report
 
 ## Summary
-We analyzed the workspace containing `goodfriend`, `goodfriend-kanban`, `goodfriend-test-app`, and `goodfriend-keycloak`.
-We attempted to integrate `@goodfriend/client` into `goodfriend-keycloak` (Admin UI).
-- Verified the build works locally.
-- Verified the frontend loads (with expected backend connection errors).
-- Implemented the `GoodFriendTutorial.tsx` component logic.
-- Added the dependency to `package.json`.
+We are working on `goodfriend-keycloak`.
+Previous attempts with conflicting Java versions were addressed by switching to a Java 8 specific setup.
+We are now setting up the project using **Java 8** on branch `feature/java8-setup`.
 
 ## Current State
-- **GoodFriend Server**: Works on port 3001.
-- **Keycloak Admin UI**: Works on port 5174 (frontend only).
-- **Keycloak Backend**: Not running (Java 8 environment limitations).
+- **Repo**: `goodfriend-keycloak`
+- **Branch**: `feature/java8-setup`
+- **Java Version**: 1.8.0_421
+- **Maven Version**: 3.9.6
 
-## Decision
-We decided to **reset** the `goodfriend-keycloak` integration to perform a clean start, ensuring the environment is strictly set up for Keycloak development (Java 17+ requirement identified).
+## Ongoing Fixes
+- **Core**: Patched `KerberosSerializationUtils.java` to support newer Java 8 internal `sun.security.krb5.Credentials` constructor.
+- **JS Adapter**: Added `plexus-utils` dependency to `minify-maven-plugin` to resolve `NoClassDefFoundError`.
+- **Dependencies**: Added HTTPS repository definitions to `pom.xml` to bypass Maven 3.8+ HTTP blocker for JBoss repositories.
 
 ## Next Steps
-1. Delete current `goodfriend-keycloak` folder.
-2. Clone fresh repository.
-3. Ensure Java 17+ is installed.
-4. Execute "Fresh Keycloak Integration Plan".
+1. Finish the build (`mvn install`).
+2. Start Keycloak.
+3. Verify Keycloak Admin UI.

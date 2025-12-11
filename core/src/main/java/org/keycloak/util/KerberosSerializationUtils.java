@@ -121,10 +121,30 @@ public class KerberosSerializationUtils {
             Method getInstance = Reflections.findDeclaredMethod(Krb5NameElement.class, "getInstance", String.class, Oid.class);
             Krb5NameElement krb5Name = Reflections.invokeMethod(true, getInstance, Krb5NameElement.class, null, fullName, KRB5_NAME_OID);
 
+            String clientFullName = ticket.getClient().getName();
+            String clientName = clientFullName;
+            String clientRealm = null;
+            int cIdx = clientFullName.indexOf('@');
+            if (cIdx > 0) {
+                 clientName = clientFullName.substring(0, cIdx);
+                 clientRealm = clientFullName.substring(cIdx + 1);
+            }
+
+            String serverFullName = ticket.getServer().getName();
+            String serverName = serverFullName;
+            String serverRealm = null;
+            int sIdx = serverFullName.indexOf('@');
+            if (sIdx > 0) {
+                 serverName = serverFullName.substring(0, sIdx);
+                 serverRealm = serverFullName.substring(sIdx + 1);
+            }
+
             Credentials krb5CredsInternal = new Credentials(
                     ticket.getEncoded(),
-                    ticket.getClient().getName(),
-                    ticket.getServer().getName(),
+                    clientName,
+                    clientRealm,
+                    serverName,
+                    serverRealm,
                     ticket.getSessionKey().getEncoded(),
                     ticket.getSessionKeyType(),
                     ticket.getFlags(),

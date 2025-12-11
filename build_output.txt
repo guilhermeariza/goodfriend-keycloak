@@ -1,0 +1,459 @@
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Keycloak                                                           [pom]
+[INFO] Keycloak Core                                                      [jar]
+[INFO] Keycloak Core JAX-RS                                               [jar]
+[INFO] Keycloak Model API                                                 [jar]
+[INFO] Keycloak Connections JPA                                           [jar]
+[INFO] Keycloak Connections Apache HttpClient                             [jar]
+[INFO] Keycloak Forms                                                     [pom]
+[INFO] Keycloak Forms Common FreeMarker                                   [jar]
+[INFO] Events Parent                                                      [pom]
+[INFO] Keycloak Events API                                                [jar]
+[INFO] Keycloak Account Management API                                    [jar]
+[INFO] Keycloak Email API                                                 [jar]
+[INFO] Keycloak Login API                                                 [jar]
+[INFO] Keycloak Model Invalidation Cache                                  [jar]
+[INFO] Keycloak Broker Core                                               [jar]
+[INFO] Keycloak Social Parent                                             [pom]
+[INFO] Keycloak Social Core                                               [jar]
+[INFO] Keycloak Timer Parent                                              [pom]
+[INFO] Keycloak Timer API                                                 [jar]
+[INFO] Keycloak Timer Basic Provider                                      [jar]
+[INFO] Keycloak Export And Import                                         [pom]
+[INFO] Keycloak Export Import API                                         [jar]
+[INFO] Keycloak REST Services                                             [jar]
+[INFO] Keycloak Connections JPA Liquibase Updater                         [jar]
+[INFO] Keycloak Connections Infinispan                                    [jar]
+[INFO] Keycloak Connections Mongo                                         [jar]
+[INFO] Keycloak Export Import To Single File                              [jar]
+[INFO] Keycloak Connections File                                          [jar]
+[INFO] Keycloak Connections Mongo Update                                  [jar]
+[INFO] Connections Parent                                                 [pom]
+[INFO] Keycloak Events Store JPA Provider                                 [jar]
+[INFO] Keycloak Events JBoss Logging Provider                             [jar]
+[INFO] Keycloak JS Integration                                            [jar]
+[INFO] Keycloak Login Default Theme                                       [jar]
+[INFO] Keycloak Account Management FreeMarker                             [jar]
+[INFO] Keycloak Email FreeMarker                                          [jar]
+[INFO] Keycloak Login FreeMarker                                          [jar]
+[INFO] Keycloak Export Import To Directory                                [jar]
+[INFO] Keycloak Dependencies Server Min                                   [pom]
+[INFO] Keycloak Model JPA                                                 [jar]
+[INFO] Keycloak Model File                                                [jar]
+[INFO] Keycloak Model Sessions Infinispan                                 [jar]
+[INFO] Keycloak Model Invalidation Cache Infinispan                       [jar]
+[INFO] Keycloak Events Email Provider                                     [jar]
+[INFO] Keycloak Broker - OpenID Connect Identity Provider                 [jar]
+[INFO] Keycloak SAML Core                                                 [jar]
+[INFO] Keycloak SAML Protocol                                             [jar]
+[INFO] Keycloak Broker - SAML Identity Provider                           [jar]
+[INFO] Keycloak Social GitHub                                             [jar]
+[INFO] Keycloak Social Google                                             [jar]
+[INFO] Keycloak Social Twitter                                            [jar]
+[INFO] Keycloak Social Facebook                                           [jar]
+[INFO] Keycloak Social LinkedIn                                           [jar]
+[INFO] Keycloak Social StackOverflow                                      [jar]
+[INFO] Keycloak Kerberos Federation                                       [jar]
+[INFO] Keycloak LDAP Federation                                           [jar]
+[INFO] Keycloak Model Mongo                                               [jar]
+[INFO] Keycloak Events Store Mongo Provider                               [jar]
+[INFO] Keycloak Export Import To Encrypted ZIP                            [jar]
+[INFO] Keycloak Dependencies Server All                                   [pom]
+[INFO] Keycloak Dependencies Parent                                       [pom]
+[INFO] Keycloak Events Syslog Provider                                    [jar]
+[INFO] Keycloak Model Invalidation Cache Parent                           [pom]
+[INFO] Keycloak Model Parent                                              [pom]
+[INFO] Keycloak Adapter Core                                              [jar]
+[INFO] Keycloak JAX-RS OAuth Client                                       [jar]
+[INFO] Keycloak Servlet OAuth Client                                      [jar]
+[INFO] Common JBoss/Wildfly Core Classes                                  [jar]
+[INFO] Keycloak Tomcat Core Integration                                   [jar]
+[INFO] Keycloak Tomcat 6 Integration                                      [jar]
+[INFO] Keycloak Tomcat 7 Integration                                      [jar]
+[INFO] Keycloak Tomcat 8 Integration                                      [jar]
+[INFO] Keycloak Tomcat Integration                                        [pom]
+[INFO] Keycloak AS7 Integration                                           [jar]
+[INFO] Keycloak AS7 Subsystem                                             [jar]
+[INFO] Keycloak AS7 / EAP 6 Server Subsystem                              [jar]
+[INFO] Keycloak AS7 / JBoss EAP 6 Integration                             [pom]
+[INFO] Keycloak Jetty Core Integration                                    [jar]
+[INFO] Keycloak Jetty 8.1.x Integration                                   [jar]
+[INFO] Keycloak Jetty 9.2.x Integration                                   [jar]
+[INFO] Keycloak Jetty 9.1.x Integration                                   [jar]
+[INFO] Keycloak Jetty Integration                                         [pom]
+[INFO] Keycloak Undertow Integration                                      [jar]
+[INFO] Keycloak Wildfly Integration                                       [jar]
+[INFO] Keycloak WildFly Extensions                                        [jar]
+[INFO] Keycloak Wildfly 8 Adapter Subsystem                               [jar]
+[INFO] Keycloak Wildfly 9 Adapter Subsystem                               [jar]
+[INFO] Keycloak Wildfly 9 Server Subsystem                                [jar]
+[INFO] Keycloak WildFly Integration                                       [pom]
+[INFO] Keycloak Installed Application                                     [jar]
+[INFO] Keycloak Admin REST Client                                         [jar]
+[INFO] Keycloak OSGI Adapter                                              [jar]
+[INFO] Keycloak Spring Boot Integration                                   [jar]
+[INFO] Keycloak Spring Security Integration                               [jar]
+[INFO] Keycloak Integration                                               [pom]
+[INFO] Keycloak Launcher                                                  [jar]
+[INFO] Keycloak Proxy Server                                              [jar]
+[INFO] Model Parent                                                       [pom]
+[INFO] Keycloak Federation                                                [pom]
+[INFO] Keycloak SAML Integration                                          [pom]
+[INFO] Keycloak Broker Parent                                             [pom]
+[INFO] Examples                                                           [pom]
+[INFO] Keycloak Examples - Admin Client                                   [war]
+[INFO] Broker Examples                                                    [pom]
+[INFO] Keycloak Broker Examples - Facebook Authentication                 [war]
+[INFO] Keycloak Broker Examples - Google Authentication                   [war]
+[INFO] Keycloak Broker Examples - SAML Identity Provider Brokering        [war]
+[INFO] Keycloak Broker Examples - Twitter Authentication                  [war]
+[INFO] Keycloak Examples - CORS                                           [pom]
+[INFO] Angular Product Portal JS                                          [war]
+[INFO] JAX-RS Database Service Using OAuth Bearer Tokens                  [war]
+[INFO] Examples                                                           [pom]
+[INFO] Customer Portal - Secured via Valve                                [war]
+[INFO] Customer Portal CLI                                                [jar]
+[INFO] Customer Portal JS                                                 [war]
+[INFO] Product Portal                                                     [war]
+[INFO] EAR example                                                        [ear]
+[INFO] Admin Access Example                                               [war]
+[INFO] Angular Product Portal JS                                          [war]
+[INFO] JAX-RS Database Service Using OAuth Bearer Tokens                  [war]
+[INFO] Simple OAuth Client                                                [war]
+[INFO] Simple OAuth Client Using CDI and JSF                              [war]
+[INFO] Service Account Example App                                        [war]
+[INFO] Provider Examples                                                  [pom]
+[INFO] Event Listener System.out Example                                  [jar]
+[INFO] Event Store In-Mem Example                                         [jar]
+[INFO] Properties Authentication Provider Example                         [jar]
+[INFO] Authenticator Example                                              [jar]
+[INFO] JS Console                                                         [war]
+[INFO] Keycloak Examples - Multi Tenant                                   [war]
+[INFO] Keycloak Examples - Basic Auth                                     [war]
+[INFO] Fuse examples                                                      [pom]
+[INFO] Customer Portal - Secured in Karaf/Fuse                            [war]
+[INFO] CXF JAXWS Example - Secured in Karaf/Fuse                       [bundle]
+[INFO] Product Portal - Secured in Karaf/Fuse                          [bundle]
+[INFO] CXF JAXRS Example - Secured in Karaf/Fuse                       [bundle]
+[INFO] Camel endpoint example - Secured in Karaf/Fuse                  [bundle]
+[INFO] Keycloak Fuse Example - Features                                   [jar]
+[INFO] Keycloak Util Embedded LDAP                                        [jar]
+[INFO] Keycloak Examples - Kerberos Credential Delegation                 [war]
+[INFO] Themes Examples                                                    [jar]
+[INFO] PicketLink Quickstart: picketlink-federation-saml-sp-post-basic    [war]
+[INFO] PicketLink Quickstart: picketlink-federation-saml-sp-post-with-signature [war]
+[INFO] PicketLink Quickstart: picketlink-federation-saml-sp-with-encryption [war]
+[INFO] PicketLink Quickstart: picketlink-federation-saml-sp-redirect-basic [war]
+[INFO] PicketLink Quickstart: picketlink-federation-saml-sp-redirect-with-signature [war]
+[INFO] Provider Examples                                                  [pom]
+[INFO] LDAP Demo Application                                              [war]
+[INFO] Keycloak TestSuite                                                 [pom]
+[INFO] Keycloak Integration TestSuite                                     [jar]
+[INFO] Keycloak Security Proxy TestSuite                                  [jar]
+[INFO] Keycloak Tomcat 6 Integration TestSuite                            [jar]
+[INFO] Keycloak Tomcat 7 Integration TestSuite                            [jar]
+[INFO] Keycloak Tomcat 8 Integration TestSuite                            [jar]
+[INFO] Keycloak Jetty 8.1.x Integration TestSuite                         [jar]
+[INFO] Keycloak Jetty 9.2.x Integration TestSuite                         [jar]
+[INFO] Keycloak Jetty 9.1.x Integration TestSuite                         [jar]
+[INFO] Keycloak Performance TestSuite                                     [jar]
+[INFO] Keycloak Util Parent                                               [pom]
+[INFO] 
+[INFO] --------------------< org.keycloak:keycloak-parent >--------------------
+[INFO] Building Keycloak 1.5.0.Final                                    [1/159]
+[INFO]   from pom.xml
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --- clean:2.5:clean (default-clean) @ keycloak-parent ---
+[INFO] 
+[INFO] --- enforcer:1.4:enforce (enforce-maven) @ keycloak-parent ---
+[INFO] 
+[INFO] --- enforcer:1.4:enforce (enforce-java-version) @ keycloak-parent ---
+[INFO] 
+[INFO] --- enforcer:1.4:enforce (enforce-maven-version) @ keycloak-parent ---
+[INFO] 
+[INFO] --- buildnumber:1.3:create-timestamp (get-build-timestamp) @ keycloak-parent ---
+[INFO] 
+[INFO] --- buildnumber:1.3:create (get-scm-revision) @ keycloak-parent ---
+[INFO] Executing: cmd.exe /X /C "git rev-parse --verify HEAD"
+[INFO] Working directory: C:\Users\MURALIS\OneDrive - Muralis\Documentos\goodfriend\goodfriend-keycloak
+[INFO] Storing buildNumber: 234aae54638f911d5fb5052fa43bbae6e88c3dd9 at timestamp: 1765463759081
+[INFO] Storing buildScmBranch: feature/java8-setup
+[INFO] 
+[INFO] --- source:2.3:jar-no-fork (attach-sources) @ keycloak-parent ---
+[INFO] 
+[INFO] --- install:2.5.1:install (default-install) @ keycloak-parent ---
+[INFO] Installing C:\Users\MURALIS\OneDrive - Muralis\Documentos\goodfriend\goodfriend-keycloak\pom.xml to C:\Users\MURALIS\.m2\repository\org\keycloak\keycloak-parent\1.5.0.Final\keycloak-parent-1.5.0.Final.pom
+[INFO] 
+[INFO] ---------------------< org.keycloak:keycloak-core >---------------------
+[INFO] Building Keycloak Core 1.5.0.Final                               [2/159]
+[INFO]   from core\pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:2.5:clean (default-clean) @ keycloak-core ---
+[INFO] Deleting C:\Users\MURALIS\OneDrive - Muralis\Documentos\goodfriend\goodfriend-keycloak\core\target
+[INFO] 
+[INFO] --- enforcer:1.4:enforce (enforce-maven) @ keycloak-core ---
+[INFO] 
+[INFO] --- enforcer:1.4:enforce (enforce-java-version) @ keycloak-core ---
+[INFO] 
+[INFO] --- enforcer:1.4:enforce (enforce-maven-version) @ keycloak-core ---
+[INFO] 
+[INFO] --- buildnumber:1.3:create-timestamp (get-build-timestamp) @ keycloak-core ---
+[INFO] 
+[INFO] --- buildnumber:1.3:create (get-scm-revision) @ keycloak-core ---
+[INFO] 
+[INFO] --- resources:2.6:resources (default-resources) @ keycloak-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- compiler:3.1:compile (default-compile) @ keycloak-core ---
+[WARNING]  Parameter 'compilerArguments' is deprecated: use {@link #compilerArgs} instead.
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 114 source files to C:\Users\MURALIS\OneDrive - Muralis\Documentos\goodfriend\goodfriend-keycloak\core\target\classes
+[INFO] -------------------------------------------------------------
+[WARNING] COMPILATION WARNING : 
+[INFO] -------------------------------------------------------------
+[WARNING] bootstrap class path not set in conjunction with -source 1.7
+[WARNING] /C:/Users/MURALIS/OneDrive - Muralis/Documentos/goodfriend/goodfriend-keycloak/core/src/main/java/org/keycloak/util/KerberosSerializationUtils.java:[22,25] sun.security.jgss.GSSCredentialImpl is internal proprietary API and may be removed in a future release
+[WARNING] /C:/Users/MURALIS/OneDrive - Muralis/Documentos/goodfriend/goodfriend-keycloak/core/src/main/java/org/keycloak/util/KerberosSerializationUtils.java:[23,25] sun.security.jgss.GSSManagerImpl is internal proprietary API and may be removed in a future release
+[WARNING] /C:/Users/MURALIS/OneDrive - Muralis/Documentos/goodfriend/goodfriend-keycloak/core/src/main/java/org/keycloak/util/KerberosSerializationUtils.java:[24,30] sun.security.jgss.krb5.Krb5InitCredential is internal proprietary API and may be removed in a future release
+[WARNING] /C:/Users/MURALIS/OneDrive - Muralis/Documentos/goodfriend/goodfriend-keycloak/core/src/main/java/org/keycloak/util/KerberosSerializationUtils.java:[25,30] sun.security.jgss.krb5.Krb5NameElement is internal proprietary API and may be removed in a future release
+[WARNING] /C:/Users/MURALIS/OneDrive - Muralis/Documentos/goodfriend/goodfriend-keycloak/core/src/main/java/org/keycloak/util/KerberosSerializationUtils.java:[26,29] sun.security.jgss.spi.GSSCredentialSpi is internal proprietary API and may be removed in a future release
+[WARNING] /C:/Users/MURALIS/OneDrive - Muralis/Documentos/goodfriend/goodfriend-keycloak/core/src/main/java/org/keycloak/util/KerberosSerializationUtils.java:[27,25] sun.security.krb5.Credentials is internal proprietary API and may be removed in a future release
+[WARNING] /C:/Users/MURALIS/OneDrive - Muralis/Documentos/goodfriend/goodfriend-keycloak/core/src/main/java/org/keycloak/representations/idm/RealmRepresentation.java:[129,17] org.keycloak.representations.idm.ApplicationRepresentation in org.keycloak.representations.idm has been deprecated
+[WARNING] /C:/Users/MURALIS/OneDrive - Muralis/Documentos/goodfriend/goodfriend-keycloak/core/src/main/java/org/keycloak/AbstractOAuthClient.java:[106,58] non-varargs call of varargs method with inexact argument type for last parameter;
+  cast to java.lang.Object for a varargs call
+  cast to java.lang.Object[] for a non-varargs call and to suppress this warning
+[WARNING] /C:/Users/MURALIS/OneDrive - Muralis/Documentos/goodfriend/goodfriend-keycloak/core/src/main/java/org/keycloak/AbstractOAuthClient.java:[107,59] non-varargs call of varargs method with inexact argument type for last parameter;
+  cast to java.lang.Object for a varargs call
+  cast to java.lang.Object[] for a non-varargs call and to suppress this warning
+[WARNING] /C:/Users/MURALIS/OneDrive - Muralis/Documentos/goodfriend/goodfriend-keycloak/core/src/main/java/org/keycloak/util/KerberosSerializationUtils.java:[65,44] sun.security.jgss.GSSCredentialImpl is internal proprietary API and may be removed in a future release
+[WARNING] /C:/Users/MURALIS/OneDrive - Muralis/Documentos/goodfriend/goodfriend-keycloak/core/src/main/java/org/keycloak/util/KerberosSerializationUtils.java:[69,13] sun.security.jgss.GSSCredentialImpl is internal proprietary API and may be removed in a future release
+[WARNING] /C:/Users/MURALIS/OneDrive - Muralis/Documentos/goodfriend/goodfriend-keycloak/core/src/main/java/org/keycloak/util/KerberosSerializationUtils.java:[69,46] sun.security.jgss.GSSCredentialImpl is internal proprietary API and may be removed in a future release
+[WARNING] /C:/Users/MURALIS/OneDrive - Muralis/Documentos/goodfriend/goodfriend-keycloak/core/src/main/java/org/keycloak/util/KerberosSerializationUtils.java:[77,21] sun.security.jgss.spi.GSSCredentialSpi is internal proprietary API and may be removed in a future release
+[WARNING] /C:/Users/MURALIS/OneDrive - Muralis/Documentos/goodfriend/goodfriend-keycloak/core/src/main/java/org/keycloak/util/KerberosSerializationUtils.java:[78,50] sun.security.jgss.krb5.Krb5InitCredential is internal proprietary API and may be removed in a future release
+[WARNING] /C:/Users/MURALIS/OneDrive - Muralis/Documentos/goodfriend/goodfriend-keycloak/core/src/main/java/org/keycloak/util/KerberosSerializationUtils.java:[79,25] sun.security.jgss.krb5.Krb5InitCredential is internal proprietary API and may be removed in a future release
+[WARNING] /C:/Users/MURALIS/OneDrive - Muralis/Documentos/goodfriend/goodfriend-keycloak/core/src/main/java/org/keycloak/util/KerberosSerializationUtils.java:[79,58] sun.security.jgss.krb5.Krb5InitCredential is internal proprietary API and may be removed in a future release
+[WARNING] /C:/Users/MURALIS/OneDrive - Muralis/Documentos/goodfriend/goodfriend-keycloak/core/src/main/java/org/keycloak/util/KerberosSerializationUtils.java:[121,65] sun.security.jgss.krb5.Krb5NameElement is internal proprietary API and may be removed in a future release
+[WARNING] /C:/Users/MURALIS/OneDrive - Muralis/Documentos/goodfriend/goodfriend-keycloak/core/src/main/java/org/keycloak/util/KerberosSerializationUtils.java:[122,13] sun.security.jgss.krb5.Krb5NameElement is internal proprietary API and may be removed in a future release
+[WARNING] /C:/Users/MURALIS/OneDrive - Muralis/Documentos/goodfriend/goodfriend-keycloak/core/src/main/java/org/keycloak/util/KerberosSerializationUtils.java:[122,84] sun.security.jgss.krb5.Krb5NameElement is internal proprietary API and may be removed in a future release
+[WARNING] /C:/Users/MURALIS/OneDrive - Muralis/Documentos/goodfriend/goodfriend-keycloak/core/src/main/java/org/keycloak/util/KerberosSerializationUtils.java:[124,13] sun.security.krb5.Credentials is internal proprietary API and may be removed in a future release
+[WARNING] /C:/Users/MURALIS/OneDrive - Muralis/Documentos/goodfriend/goodfriend-keycloak/core/src/main/java/org/keycloak/util/KerberosSerializationUtils.java:[124,49] sun.security.krb5.Credentials is internal proprietary API and may be removed in a future release
+[WARNING] /C:/Users/MURALIS/OneDrive - Muralis/Documentos/goodfriend/goodfriend-keycloak/core/src/main/java/org/keycloak/util/KerberosSerializationUtils.java:[138,66] sun.security.jgss.krb5.Krb5InitCredential is internal proprietary API and may be removed in a future release
+[WARNING] /C:/Users/MURALIS/OneDrive - Muralis/Documentos/goodfriend/goodfriend-keycloak/core/src/main/java/org/keycloak/util/KerberosSerializationUtils.java:[138,107] sun.security.jgss.krb5.Krb5NameElement is internal proprietary API and may be removed in a future release
+[WARNING] /C:/Users/MURALIS/OneDrive - Muralis/Documentos/goodfriend/goodfriend-keycloak/core/src/main/java/org/keycloak/util/KerberosSerializationUtils.java:[138,130] sun.security.krb5.Credentials is internal proprietary API and may be removed in a future release
+[WARNING] /C:/Users/MURALIS/OneDrive - Muralis/Documentos/goodfriend/goodfriend-keycloak/core/src/main/java/org/keycloak/util/KerberosSerializationUtils.java:[139,13] sun.security.jgss.krb5.Krb5InitCredential is internal proprietary API and may be removed in a future release
+[WARNING] /C:/Users/MURALIS/OneDrive - Muralis/Documentos/goodfriend/goodfriend-keycloak/core/src/main/java/org/keycloak/util/KerberosSerializationUtils.java:[139,94] sun.security.jgss.krb5.Krb5InitCredential is internal proprietary API and may be removed in a future release
+[WARNING] /C:/Users/MURALIS/OneDrive - Muralis/Documentos/goodfriend/goodfriend-keycloak/core/src/main/java/org/keycloak/util/KerberosSerializationUtils.java:[141,13] sun.security.jgss.GSSManagerImpl is internal proprietary API and may be removed in a future release
+[WARNING] /C:/Users/MURALIS/OneDrive - Muralis/Documentos/goodfriend/goodfriend-keycloak/core/src/main/java/org/keycloak/util/KerberosSerializationUtils.java:[141,39] sun.security.jgss.GSSManagerImpl is internal proprietary API and may be removed in a future release
+[WARNING] /C:/Users/MURALIS/OneDrive - Muralis/Documentos/goodfriend/goodfriend-keycloak/core/src/main/java/org/keycloak/util/KerberosSerializationUtils.java:[142,24] sun.security.jgss.GSSCredentialImpl is internal proprietary API and may be removed in a future release
+[WARNING] /C:/Users/MURALIS/OneDrive - Muralis/Documentos/goodfriend/goodfriend-keycloak/core/src/main/java/org/keycloak/util/Encode.java:[72,38] encode(java.lang.String) in java.net.URLEncoder has been deprecated
+[WARNING] /C:/Users/MURALIS/OneDrive - Muralis/Documentos/goodfriend/goodfriend-keycloak/core/src/main/java/org/keycloak/util/Encode.java:[107,48] encode(java.lang.String) in java.net.URLEncoder has been deprecated
+[WARNING] /C:/Users/MURALIS/OneDrive - Muralis/Documentos/goodfriend/goodfriend-keycloak/core/src/main/java/org/keycloak/util/Encode.java:[147,45] encode(java.lang.String) in java.net.URLEncoder has been deprecated
+[WARNING] /C:/Users/MURALIS/OneDrive - Muralis/Documentos/goodfriend/goodfriend-keycloak/core/src/main/java/org/keycloak/representations/idm/UserRepresentation.java: Some input files use unchecked or unsafe operations.
+[WARNING] /C:/Users/MURALIS/OneDrive - Muralis/Documentos/goodfriend/goodfriend-keycloak/core/src/main/java/org/keycloak/representations/idm/UserRepresentation.java: Recompile with -Xlint:unchecked for details.
+[INFO] 35 warnings 
+[INFO] -------------------------------------------------------------
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /C:/Users/MURALIS/OneDrive - Muralis/Documentos/goodfriend/goodfriend-keycloak/core/src/main/java/org/keycloak/util/KerberosSerializationUtils.java:[124,45] no suitable constructor found for Credentials(byte[],java.lang.String,java.lang.String,byte[],int,boolean[],java.util.Date,java.util.Date,java.util.Date,java.util.Date,java.net.InetAddress[])
+    constructor sun.security.krb5.Credentials.Credentials(sun.security.krb5.internal.Ticket,sun.security.krb5.PrincipalName,sun.security.krb5.PrincipalName,sun.security.krb5.PrincipalName,sun.security.krb5.PrincipalName,sun.security.krb5.EncryptionKey,sun.security.krb5.internal.TicketFlags,sun.security.krb5.internal.KerberosTime,sun.security.krb5.internal.KerberosTime,sun.security.krb5.internal.KerberosTime,sun.security.krb5.internal.KerberosTime,sun.security.krb5.internal.HostAddresses,sun.security.krb5.internal.AuthorizationData) is not applicable
+      (actual and formal argument lists differ in length)
+    constructor sun.security.krb5.Credentials.Credentials(sun.security.krb5.internal.Ticket,sun.security.krb5.PrincipalName,sun.security.krb5.PrincipalName,sun.security.krb5.PrincipalName,sun.security.krb5.PrincipalName,sun.security.krb5.EncryptionKey,sun.security.krb5.internal.TicketFlags,sun.security.krb5.internal.KerberosTime,sun.security.krb5.internal.KerberosTime,sun.security.krb5.internal.KerberosTime,sun.security.krb5.internal.KerberosTime,sun.security.krb5.internal.HostAddresses) is not applicable
+      (actual and formal argument lists differ in length)
+    constructor sun.security.krb5.Credentials.Credentials(byte[],java.lang.String,java.lang.String,java.lang.String,java.lang.String,byte[],int,boolean[],java.util.Date,java.util.Date,java.util.Date,java.util.Date,java.net.InetAddress[]) is not applicable
+      (actual and formal argument lists differ in length)
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Keycloak 1.5.0.Final ............................... SUCCESS [  0.821 s]
+[INFO] Keycloak Core 1.5.0.Final .......................... FAILURE [  1.457 s]
+[INFO] Keycloak Core JAX-RS 1.5.0.Final ................... SKIPPED
+[INFO] Keycloak Model API 1.5.0.Final ..................... SKIPPED
+[INFO] Keycloak Connections JPA 1.5.0.Final ............... SKIPPED
+[INFO] Keycloak Connections Apache HttpClient 1.5.0.Final . SKIPPED
+[INFO] Keycloak Forms 1.5.0.Final ......................... SKIPPED
+[INFO] Keycloak Forms Common FreeMarker 1.5.0.Final ....... SKIPPED
+[INFO] Events Parent 1.5.0.Final .......................... SKIPPED
+[INFO] Keycloak Events API 1.5.0.Final .................... SKIPPED
+[INFO] Keycloak Account Management API 1.5.0.Final ........ SKIPPED
+[INFO] Keycloak Email API 1.5.0.Final ..................... SKIPPED
+[INFO] Keycloak Login API 1.5.0.Final ..................... SKIPPED
+[INFO] Keycloak Model Invalidation Cache 1.5.0.Final ...... SKIPPED
+[INFO] Keycloak Broker Core 1.5.0.Final ................... SKIPPED
+[INFO] Keycloak Social Parent 1.5.0.Final ................. SKIPPED
+[INFO] Keycloak Social Core 1.5.0.Final ................... SKIPPED
+[INFO] Keycloak Timer Parent 1.5.0.Final .................. SKIPPED
+[INFO] Keycloak Timer API 1.5.0.Final ..................... SKIPPED
+[INFO] Keycloak Timer Basic Provider 1.5.0.Final .......... SKIPPED
+[INFO] Keycloak Export And Import 1.5.0.Final ............. SKIPPED
+[INFO] Keycloak Export Import API 1.5.0.Final ............. SKIPPED
+[INFO] Keycloak REST Services 1.5.0.Final ................. SKIPPED
+[INFO] Keycloak Connections JPA Liquibase Updater 1.5.0.Final SKIPPED
+[INFO] Keycloak Connections Infinispan 1.5.0.Final ........ SKIPPED
+[INFO] Keycloak Connections Mongo 1.5.0.Final ............. SKIPPED
+[INFO] Keycloak Export Import To Single File 1.5.0.Final .. SKIPPED
+[INFO] Keycloak Connections File 1.5.0.Final .............. SKIPPED
+[INFO] Keycloak Connections Mongo Update 1.5.0.Final ...... SKIPPED
+[INFO] Connections Parent 1.5.0.Final ..................... SKIPPED
+[INFO] Keycloak Events Store JPA Provider 1.5.0.Final ..... SKIPPED
+[INFO] Keycloak Events JBoss Logging Provider 1.5.0.Final . SKIPPED
+[INFO] Keycloak JS Integration 1.5.0.Final ................ SKIPPED
+[INFO] Keycloak Login Default Theme 1.5.0.Final ........... SKIPPED
+[INFO] Keycloak Account Management FreeMarker 1.5.0.Final . SKIPPED
+[INFO] Keycloak Email FreeMarker 1.5.0.Final .............. SKIPPED
+[INFO] Keycloak Login FreeMarker 1.5.0.Final .............. SKIPPED
+[INFO] Keycloak Export Import To Directory 1.5.0.Final .... SKIPPED
+[INFO] Keycloak Dependencies Server Min 1.5.0.Final ....... SKIPPED
+[INFO] Keycloak Model JPA 1.5.0.Final ..................... SKIPPED
+[INFO] Keycloak Model File 1.5.0.Final .................... SKIPPED
+[INFO] Keycloak Model Sessions Infinispan 1.5.0.Final ..... SKIPPED
+[INFO] Keycloak Model Invalidation Cache Infinispan 1.5.0.Final SKIPPED
+[INFO] Keycloak Events Email Provider 1.5.0.Final ......... SKIPPED
+[INFO] Keycloak Broker - OpenID Connect Identity Provider 1.5.0.Final SKIPPED
+[INFO] Keycloak SAML Core 1.5.0.Final ..................... SKIPPED
+[INFO] Keycloak SAML Protocol 1.5.0.Final ................. SKIPPED
+[INFO] Keycloak Broker - SAML Identity Provider 1.5.0.Final SKIPPED
+[INFO] Keycloak Social GitHub 1.5.0.Final ................. SKIPPED
+[INFO] Keycloak Social Google 1.5.0.Final ................. SKIPPED
+[INFO] Keycloak Social Twitter 1.5.0.Final ................ SKIPPED
+[INFO] Keycloak Social Facebook 1.5.0.Final ............... SKIPPED
+[INFO] Keycloak Social LinkedIn 1.5.0.Final ............... SKIPPED
+[INFO] Keycloak Social StackOverflow 1.5.0.Final .......... SKIPPED
+[INFO] Keycloak Kerberos Federation 1.5.0.Final ........... SKIPPED
+[INFO] Keycloak LDAP Federation 1.5.0.Final ............... SKIPPED
+[INFO] Keycloak Model Mongo 1.5.0.Final ................... SKIPPED
+[INFO] Keycloak Events Store Mongo Provider 1.5.0.Final ... SKIPPED
+[INFO] Keycloak Export Import To Encrypted ZIP 1.5.0.Final  SKIPPED
+[INFO] Keycloak Dependencies Server All 1.5.0.Final ....... SKIPPED
+[INFO] Keycloak Dependencies Parent 1.5.0.Final ........... SKIPPED
+[INFO] Keycloak Events Syslog Provider 1.5.0.Final ........ SKIPPED
+[INFO] Keycloak Model Invalidation Cache Parent 1.5.0.Final SKIPPED
+[INFO] Keycloak Model Parent 1.5.0.Final .................. SKIPPED
+[INFO] Keycloak Adapter Core 1.5.0.Final .................. SKIPPED
+[INFO] Keycloak JAX-RS OAuth Client 1.5.0.Final ........... SKIPPED
+[INFO] Keycloak Servlet OAuth Client 1.5.0.Final .......... SKIPPED
+[INFO] Common JBoss/Wildfly Core Classes 1.5.0.Final ...... SKIPPED
+[INFO] Keycloak Tomcat Core Integration 1.5.0.Final ....... SKIPPED
+[INFO] Keycloak Tomcat 6 Integration 1.5.0.Final .......... SKIPPED
+[INFO] Keycloak Tomcat 7 Integration 1.5.0.Final .......... SKIPPED
+[INFO] Keycloak Tomcat 8 Integration 1.5.0.Final .......... SKIPPED
+[INFO] Keycloak Tomcat Integration 1.5.0.Final ............ SKIPPED
+[INFO] Keycloak AS7 Integration 1.5.0.Final ............... SKIPPED
+[INFO] Keycloak AS7 Subsystem 1.5.0.Final ................. SKIPPED
+[INFO] Keycloak AS7 / EAP 6 Server Subsystem 1.5.0.Final .. SKIPPED
+[INFO] Keycloak AS7 / JBoss EAP 6 Integration 1.5.0.Final . SKIPPED
+[INFO] Keycloak Jetty Core Integration 1.5.0.Final ........ SKIPPED
+[INFO] Keycloak Jetty 8.1.x Integration 1.5.0.Final ....... SKIPPED
+[INFO] Keycloak Jetty 9.2.x Integration 1.5.0.Final ....... SKIPPED
+[INFO] Keycloak Jetty 9.1.x Integration 1.5.0.Final ....... SKIPPED
+[INFO] Keycloak Jetty Integration 1.5.0.Final ............. SKIPPED
+[INFO] Keycloak Undertow Integration 1.5.0.Final .......... SKIPPED
+[INFO] Keycloak Wildfly Integration 1.5.0.Final ........... SKIPPED
+[INFO] Keycloak WildFly Extensions 1.5.0.Final ............ SKIPPED
+[INFO] Keycloak Wildfly 8 Adapter Subsystem 1.5.0.Final ... SKIPPED
+[INFO] Keycloak Wildfly 9 Adapter Subsystem 1.5.0.Final ... SKIPPED
+[INFO] Keycloak Wildfly 9 Server Subsystem 1.5.0.Final .... SKIPPED
+[INFO] Keycloak WildFly Integration 1.5.0.Final ........... SKIPPED
+[INFO] Keycloak Installed Application 1.5.0.Final ......... SKIPPED
+[INFO] Keycloak Admin REST Client 1.5.0.Final ............. SKIPPED
+[INFO] Keycloak OSGI Adapter 1.5.0.Final .................. SKIPPED
+[INFO] Keycloak Spring Boot Integration 1.5.0.Final ....... SKIPPED
+[INFO] Keycloak Spring Security Integration 1.5.0.Final ... SKIPPED
+[INFO] Keycloak Integration 1.5.0.Final ................... SKIPPED
+[INFO] Keycloak Launcher 1.5.0.Final ...................... SKIPPED
+[INFO] Keycloak Proxy Server 1.5.0.Final .................. SKIPPED
+[INFO] Model Parent 1.5.0.Final ........................... SKIPPED
+[INFO] Keycloak Federation 1.5.0.Final .................... SKIPPED
+[INFO] Keycloak SAML Integration 1.5.0.Final .............. SKIPPED
+[INFO] Keycloak Broker Parent 1.5.0.Final ................. SKIPPED
+[INFO] Examples 1.5.0.Final ............................... SKIPPED
+[INFO] Keycloak Examples - Admin Client 1.5.0.Final ....... SKIPPED
+[INFO] Broker Examples 1.5.0.Final ........................ SKIPPED
+[INFO] Keycloak Broker Examples - Facebook Authentication 1.5.0.Final SKIPPED
+[INFO] Keycloak Broker Examples - Google Authentication 1.5.0.Final SKIPPED
+[INFO] Keycloak Broker Examples - SAML Identity Provider Brokering 1.5.0.Final SKIPPED
+[INFO] Keycloak Broker Examples - Twitter Authentication 1.5.0.Final SKIPPED
+[INFO] Keycloak Examples - CORS 1.5.0.Final ............... SKIPPED
+[INFO] Angular Product Portal JS 1.5.0.Final .............. SKIPPED
+[INFO] JAX-RS Database Service Using OAuth Bearer Tokens 1.5.0.Final SKIPPED
+[INFO] Examples 1.5.0.Final ............................... SKIPPED
+[INFO] Customer Portal - Secured via Valve 1.5.0.Final .... SKIPPED
+[INFO] Customer Portal CLI 1.5.0.Final .................... SKIPPED
+[INFO] Customer Portal JS 1.5.0.Final ..................... SKIPPED
+[INFO] Product Portal 1.5.0.Final ......................... SKIPPED
+[INFO] EAR example 1.5.0.Final ............................ SKIPPED
+[INFO] Admin Access Example 1.5.0.Final ................... SKIPPED
+[INFO] Angular Product Portal JS 1.5.0.Final .............. SKIPPED
+[INFO] JAX-RS Database Service Using OAuth Bearer Tokens 1.5.0.Final SKIPPED
+[INFO] Simple OAuth Client 1.5.0.Final .................... SKIPPED
+[INFO] Simple OAuth Client Using CDI and JSF 1.5.0.Final .. SKIPPED
+[INFO] Service Account Example App 1.5.0.Final ............ SKIPPED
+[INFO] Provider Examples 1.5.0.Final ...................... SKIPPED
+[INFO] Event Listener System.out Example 1.5.0.Final ...... SKIPPED
+[INFO] Event Store In-Mem Example 1.5.0.Final ............. SKIPPED
+[INFO] Properties Authentication Provider Example 1.5.0.Final SKIPPED
+[INFO] Authenticator Example 1.5.0.Final .................. SKIPPED
+[INFO] JS Console 1.5.0.Final ............................. SKIPPED
+[INFO] Keycloak Examples - Multi Tenant 1.5.0.Final ....... SKIPPED
+[INFO] Keycloak Examples - Basic Auth 1.5.0.Final ......... SKIPPED
+[INFO] Fuse examples 1.5.0.Final .......................... SKIPPED
+[INFO] Customer Portal - Secured in Karaf/Fuse 1.5.0.Final  SKIPPED
+[INFO] CXF JAXWS Example - Secured in Karaf/Fuse 1.5.0.Final SKIPPED
+[INFO] Product Portal - Secured in Karaf/Fuse 1.5.0.Final . SKIPPED
+[INFO] CXF JAXRS Example - Secured in Karaf/Fuse 1.5.0.Final SKIPPED
+[INFO] Camel endpoint example - Secured in Karaf/Fuse 1.5.0.Final SKIPPED
+[INFO] Keycloak Fuse Example - Features 1.5.0.Final ....... SKIPPED
+[INFO] Keycloak Util Embedded LDAP 1.5.0.Final ............ SKIPPED
+[INFO] Keycloak Examples - Kerberos Credential Delegation 1.5.0.Final SKIPPED
+[INFO] Themes Examples 1.5.0.Final ........................ SKIPPED
+[INFO] PicketLink Quickstart: picketlink-federation-saml-sp-post-basic 2.7.0.Beta2 SKIPPED
+[INFO] PicketLink Quickstart: picketlink-federation-saml-sp-post-with-signature 2.7.0.Beta2 SKIPPED
+[INFO] PicketLink Quickstart: picketlink-federation-saml-sp-with-encryption 2.7.0.Beta2 SKIPPED
+[INFO] PicketLink Quickstart: picketlink-federation-saml-sp-redirect-basic 2.7.0.Beta2 SKIPPED
+[INFO] PicketLink Quickstart: picketlink-federation-saml-sp-redirect-with-signature 2.7.0.Beta2 SKIPPED
+[INFO] Provider Examples 1.5.0.Final ...................... SKIPPED
+[INFO] LDAP Demo Application 1.5.0.Final .................. SKIPPED
+[INFO] Keycloak TestSuite 1.5.0.Final ..................... SKIPPED
+[INFO] Keycloak Integration TestSuite 1.5.0.Final ......... SKIPPED
+[INFO] Keycloak Security Proxy TestSuite 1.5.0.Final ...... SKIPPED
+[INFO] Keycloak Tomcat 6 Integration TestSuite 1.5.0.Final  SKIPPED
+[INFO] Keycloak Tomcat 7 Integration TestSuite 1.5.0.Final  SKIPPED
+[INFO] Keycloak Tomcat 8 Integration TestSuite 1.5.0.Final  SKIPPED
+[INFO] Keycloak Jetty 8.1.x Integration TestSuite 1.5.0.Final SKIPPED
+[INFO] Keycloak Jetty 9.2.x Integration TestSuite 1.5.0.Final SKIPPED
+[INFO] Keycloak Jetty 9.1.x Integration TestSuite 1.5.0.Final SKIPPED
+[INFO] Keycloak Performance TestSuite 1.5.0.Final ......... SKIPPED
+[INFO] Keycloak Util Parent 1.5.0.Final ................... SKIPPED
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  3.495 s
+[INFO] Finished at: 2025-12-11T11:36:00-03:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.1:compile (default-compile) on project keycloak-core: Compilation failure
+[ERROR] /C:/Users/MURALIS/OneDrive - Muralis/Documentos/goodfriend/goodfriend-keycloak/core/src/main/java/org/keycloak/util/KerberosSerializationUtils.java:[124,45] no suitable constructor found for Credentials(byte[],java.lang.String,java.lang.String,byte[],int,boolean[],java.util.Date,java.util.Date,java.util.Date,java.util.Date,java.net.InetAddress[])
+[ERROR]     constructor sun.security.krb5.Credentials.Credentials(sun.security.krb5.internal.Ticket,sun.security.krb5.PrincipalName,sun.security.krb5.PrincipalName,sun.security.krb5.PrincipalName,sun.security.krb5.PrincipalName,sun.security.krb5.EncryptionKey,sun.security.krb5.internal.TicketFlags,sun.security.krb5.internal.KerberosTime,sun.security.krb5.internal.KerberosTime,sun.security.krb5.internal.KerberosTime,sun.security.krb5.internal.KerberosTime,sun.security.krb5.internal.HostAddresses,sun.security.krb5.internal.AuthorizationData) is not applicable
+[ERROR]       (actual and formal argument lists differ in length)
+[ERROR]     constructor sun.security.krb5.Credentials.Credentials(sun.security.krb5.internal.Ticket,sun.security.krb5.PrincipalName,sun.security.krb5.PrincipalName,sun.security.krb5.PrincipalName,sun.security.krb5.PrincipalName,sun.security.krb5.EncryptionKey,sun.security.krb5.internal.TicketFlags,sun.security.krb5.internal.KerberosTime,sun.security.krb5.internal.KerberosTime,sun.security.krb5.internal.KerberosTime,sun.security.krb5.internal.KerberosTime,sun.security.krb5.internal.HostAddresses) is not applicable
+[ERROR]       (actual and formal argument lists differ in length)
+[ERROR]     constructor sun.security.krb5.Credentials.Credentials(byte[],java.lang.String,java.lang.String,java.lang.String,java.lang.String,byte[],int,boolean[],java.util.Date,java.util.Date,java.util.Date,java.util.Date,java.net.InetAddress[]) is not applicable
+[ERROR]       (actual and formal argument lists differ in length)
+[ERROR] 
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <args> -rf :keycloak-core

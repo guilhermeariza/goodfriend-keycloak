@@ -1216,7 +1216,13 @@
         <!-- for org.jboss.web:jbossweb -->
         <repository>
             <id>jboss</id>
-            <url>http://repository.jboss.org/nexus/content/groups/public/</url>
+            <url>https://repository.jboss.org/nexus/content/groups/public/</url>
+            <releases>
+                <enabled>true</enabled>
+            </releases>
+            <snapshots>
+                <enabled>true</enabled>
+            </snapshots>
         </repository>
     </repositories>
 
@@ -1330,7 +1336,7 @@
             <repositories>
                 <repository>
                     <id>jboss-earlyaccess-repository</id>
-                    <url>http://maven.repository.redhat.com/earlyaccess/all/</url>
+                    <url>https://maven.repository.redhat.com/earlyaccess/all/</url>
                     <releases>
                         <enabled>true</enabled>
                     </releases>
@@ -1342,7 +1348,7 @@
             <pluginRepositories>
                 <pluginRepository>
                     <id>jboss-earlyaccess-plugin-repository</id>
-                    <url>http://maven.repository.redhat.com/earlyaccess/all/</url>
+                    <url>https://maven.repository.redhat.com/earlyaccess/all/</url>
                     <releases>
                         <enabled>true</enabled>
                     </releases>

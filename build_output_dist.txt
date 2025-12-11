@@ -1,0 +1,61 @@
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Keycloak                                                           [pom]
+[INFO] Distribution Parent                                                [pom]
+[INFO] 
+[INFO] --------------------< org.keycloak:keycloak-parent >--------------------
+[INFO] Building Keycloak 1.5.0.Final                                      [1/2]
+[INFO]   from pom.xml
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --- enforcer:1.4:enforce (enforce-maven) @ keycloak-parent ---
+[INFO] 
+[INFO] --- enforcer:1.4:enforce (enforce-java-version) @ keycloak-parent ---
+[INFO] 
+[INFO] --- enforcer:1.4:enforce (enforce-maven-version) @ keycloak-parent ---
+[INFO] 
+[INFO] --- buildnumber:1.3:create-timestamp (get-build-timestamp) @ keycloak-parent ---
+[INFO] 
+[INFO] --- buildnumber:1.3:create (get-scm-revision) @ keycloak-parent ---
+[INFO] Executing: cmd.exe /X /C "git rev-parse --verify HEAD"
+[INFO] Working directory: C:\Users\MURALIS\OneDrive - Muralis\Documentos\goodfriend\goodfriend-keycloak
+[INFO] Storing buildNumber: 234aae54638f911d5fb5052fa43bbae6e88c3dd9 at timestamp: 1765472281918
+[INFO] Storing buildScmBranch: feature/java8-setup
+[INFO] 
+[INFO] --- source:2.3:jar-no-fork (attach-sources) @ keycloak-parent ---
+[INFO] 
+[INFO] --- install:2.5.1:install (default-install) @ keycloak-parent ---
+[INFO] Installing C:\Users\MURALIS\OneDrive - Muralis\Documentos\goodfriend\goodfriend-keycloak\pom.xml to C:\Users\MURALIS\.m2\repository\org\keycloak\keycloak-parent\1.5.0.Final\keycloak-parent-1.5.0.Final.pom
+[INFO] 
+[INFO] -------------------< org.keycloak:distribution-pom >--------------------
+[INFO] Building Distribution Parent 1.5.0.Final                           [2/2]
+[INFO]   from distribution\pom.xml
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --- enforcer:1.4:enforce (enforce-maven) @ distribution-pom ---
+[INFO] 
+[INFO] --- enforcer:1.4:enforce (enforce-java-version) @ distribution-pom ---
+[INFO] 
+[INFO] --- enforcer:1.4:enforce (enforce-maven-version) @ distribution-pom ---
+[INFO] 
+[INFO] --- buildnumber:1.3:create-timestamp (get-build-timestamp) @ distribution-pom ---
+[INFO] 
+[INFO] --- buildnumber:1.3:create (get-scm-revision) @ distribution-pom ---
+[INFO] 
+[INFO] --- source:2.3:jar-no-fork (attach-sources) @ distribution-pom ---
+[INFO] 
+[INFO] --- install:2.5.1:install (default-install) @ distribution-pom ---
+[INFO] Installing C:\Users\MURALIS\OneDrive - Muralis\Documentos\goodfriend\goodfriend-keycloak\distribution\pom.xml to C:\Users\MURALIS\.m2\repository\org\keycloak\distribution-pom\1.5.0.Final\distribution-pom-1.5.0.Final.pom
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary for Keycloak 1.5.0.Final:
+[INFO] 
+[INFO] Keycloak ........................................... SUCCESS [  0.906 s]
+[INFO] Distribution Parent ................................ SUCCESS [  0.043 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  2.285 s
+[INFO] Finished at: 2025-12-11T13:58:02-03:00
+[INFO] ------------------------------------------------------------------------
